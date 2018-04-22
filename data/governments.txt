@@ -18,7 +18,7 @@ government "Algol"
 		"Outlaw" -100
 		"Drak" -1000
 		"Alpha" -100
-		"Quarg" - 1000
+		"Quarg" -1000
 		"Coalition" 1
 		"Heliarch" 1
 		"Deep" 1
@@ -33,7 +33,7 @@ government "Outlaw"
 		"Merchant" -.2
 		"Pirate" .2
 		"Alpha" 1000
-		"Republic" - 10
+		"Republic" -10
 		"Deep" -100
 		"Pug" -0.1
 
