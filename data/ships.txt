@@ -1,0 +1,281 @@
+ship "Mark II Incise"
+	sprite "ship/Algol_Destroyer"
+	attributes
+		category "Heavy Warship"
+		"cost" 29000000
+		"shields" 320000
+		"hull" 34000
+		"required crew" 1
+		"bunks" 12
+		"mass" 768
+		"drag" 6
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 851
+		"weapon capacity" 434
+		"engine capacity" 225
+		"shield generation" 13.4
+		"shield energy" 10
+		"hull repair rate" 3.4
+		"hull energy" 2
+		weapon
+			"blast radius" 500
+			"shield damage" 6000
+			"hull damage" 3000
+			"hit force" 7600
+	outfits
+		"Algol Seeker Cannon" 2
+		"Algol Rapid Gun Turret" 6
+		"Algol anti-missile"
+		
+		"Tunneler Ramscoop"
+		"Algol Generator"
+		"Algol Scanner"
+	
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Reverse Thruster"
+		"Algol Scram Drive"
+	
+	engine -50 -116
+	engine -30 -116
+	engine -10 -116
+	engine 50 -116
+	engine 30 -116
+	engine 10 -116
+	engine -94 326
+	engine -74 326
+	engine -54 326
+	engine 94 326
+	engine 74 326
+	engine 54 326
+	gun -34 -340 "Algol Seeker Cannon"
+	gun 34 -340 "Algol Seeker Cannon"
+	turret -34 -45 "Algol Rapid Gun Turret"
+	turret 34 -45 "Algol Rapid Gun Turret"
+	turret -34 32 "Algol Rapid Gun Turret"
+	turret 34 32 "Algol Rapid Gun Turret"
+	turret -34 110 "Algol Rapid Gun Turret"
+	turret 34 110 "Algol Rapid Gun Turret"
+	turret 0 178 "Algol anti-missile"	
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "After their almost complete annihilation from the Drak, the Algol reshaped their old destroyers to fight long enough to cause serious damage."
+	description "The Mark II Incise class Destroyer improves on the formula by also expanding on weapon space and engine space, at the cost of more mass."
+
+ship "Algol Carrier"
+	sprite "ship/Algol_Carrier"
+	attributes
+		category "Medium Warship"
+		"cost" 26000000
+		"shields" 180000
+		"hull" 24000
+		"required crew" 1
+		"bunks" 24
+		"mass" 537
+		"drag" 3
+		"heat dissipation" .4
+		"fuel capacity" 400
+		"cargo space" 120
+		"outfit space" 389
+		"weapon capacity" 90
+		"engine capacity" 203
+		"shield generation" 13.4
+		"shield energy" 10
+		"hull repair rate" 3.4
+		"hull energy" 2
+		weapon
+			"blast radius" 400
+			"shield damage" 4800
+			"hull damage" 2000
+			"hit force" 6400
+	outfits
+		"Algol Rapid Gun Turret"
+		"Algol anti-missile" 2
+		
+		"Tunneler Ramscoop"
+		"Algol Mini Generator" 2
+		"Algol Scanner"
+	
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Reverse Thruster"
+		"Algol Scram Drive"
+
+	engine -20 -178
+	engine 0 -178
+	engine 20 -178
+	engine -94 276
+	engine -74 276
+	engine -54 276
+	engine 94 276
+	engine 74 276
+	engine 54 276
+	turret -34 60 "Algol anti-missile"
+	turret 34 60 "Algol anti-missile"
+	turret 0 126 "Algol Rapid Gun Turret"
+	drone -78 -147 over left
+	drone 0 -147 over
+	drone 78 -147 over right
+	drone -78 -95 over left
+	drone 0 -95 over
+	drone 78 -95 over right
+	drone -78 -43 over left
+	drone 0 -43 over
+	drone 78 -43 over right
+	drone -78 7 over left
+	drone 0 7 over
+	drone 78 7 over right
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "Mark IV Scour"
+	sprite "ship/Algol_Corvette"
+	attributes
+		category "Light Warship"
+		"cost" 12000000
+		"shields" 90000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 1
+		"mass" 144
+		"drag" 2
+		"heat dissipation" .2
+		"fuel capacity" 300
+		"cargo space" 20
+		"outfit space" 311
+		"weapon capacity" 138
+		"engine capacity" 97
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 1.7
+		"hull energy" 1.2
+		weapon
+			"blast radius" 160
+			"shield damage" 2000
+			"hull damage" 1000
+			"hit force" 2000
+	outfits
+		"Algol Seeker Cannon"
+		"Algol Rapid Gun Turret"
+		
+		"Tunneler Ramscoop"
+		"Algol Mini Generator"
+		"Algol Scanner"
+	
+		"Algol Medium Thruster"
+		"Algol Medium Steering"
+		"Algol Reverse Thruster"
+		"Algol Afterburner"
+		"Algol Scram Drive"
+
+	engine -57 90
+	engine 57 90
+	gun 0 -127 "Algol Seeker Cannon"
+	turret 0 -10 "Algol Rapid Gun Turret"
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion small"
+	description "tbd"
+
+ship "Algol Freighter"
+	sprite "ship/Algol_Freighter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 34000000
+		"shields" 160000
+		"hull" 48000
+		"required crew" 0
+		"bunks" 12
+		"mass" 1176
+		"drag" 6
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 2262
+		"outfit space" 269
+		"weapon capacity" 0
+		"engine capacity" 181
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 4000
+			"hull damage" 1500
+			"hit force" 6000
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 2
+	
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Scram Drive"
+
+	engine -106 303
+	engine -86 303
+	engine -66 303
+	engine 86 303
+	engine 66 303
+	engine 106 303
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "Algol Drone Fighter"
+	sprite "ship/Algol_Drone_Fighter"
+	attributes
+		category "Drone"
+		"cost" 3700000
+		"shields" 22000
+		"hull" 2000
+		"required crew" 0
+		"bunks" 0
+		"mass" 6
+		"drag" .3
+		"heat dissipation" .04
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 101
+		"weapon capacity" 42
+		"engine capacity" 31
+		"shield generation" 3.4
+		"shield energy" 2.5
+		"hull repair rate" .8
+		"hull energy" .6
+		"automaton" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 400
+			"hull damage" 200
+			"hit force" 400
+	outfits
+		"Algol Rapid Gun" 3
+		
+		"Algol Energy Suspender"
+		"Algol Scanner"
+	
+		"Algol Small Thruster"
+		"Algol Small Steering"
+		"Algol Reverse Thruster"
+
+	engine 0 22
+	gun -4 -23 "Algol Rapid Gun"
+	gun 0 -23 "Algol Rapid Gun"
+	gun 4 -23 "Algol Rapid Gun"
+	explode "tiny explosion" 20
+	description "tbd"

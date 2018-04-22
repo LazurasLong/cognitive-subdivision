@@ -1,0 +1,117 @@
+# weapons
+
+outfit "Algol Rapid Gun Turret"
+	category "Turrets"
+	cost 8200000
+	thumbnail "outfit/Algol_Rapid_Fire_Turret"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/Algol_Rapid_Fire"
+			"frame rate" 6
+			"random start frame"
+		"hardpoint sprite" "hardpoint/algol_rapid_fire_turret"
+		"hardpoint offset" 14.3
+		sound "rapid_fire"
+		"hit effect" "blaster impact"
+		"inaccuracy" .6
+		"turret turn" 3
+		"velocity" 40
+		"lifetime" 60
+		"reload" 10
+		"firing energy" 100
+		"firing force" 16
+		"firing heat" 100
+		"shield damage" 167
+		"hull damage" 116
+		"piercing" .1
+		cluster
+	description "tbd"
+
+outfit "Algol Rapid Gun"
+	category "Guns"
+	cost 2000000
+	thumbnail "outfit/Algol_Rapid_Fire"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/Algol_Rapid_Fire"
+			"frame rate" 6
+			"random start frame"
+		sound "rapid_fire"
+		"hit effect" "blaster impact"
+		"inaccuracy" .6
+		"velocity" 40
+		"lifetime" 60
+		"reload" 40
+		"firing energy" 100
+		"firing force" 16
+		"firing heat" 100
+		"shield damage" 167
+		"hull damage" 116
+		"piercing" .1
+		stream
+	description "tbd"
+
+outfit "Algol anti-missile"
+	category "Turrets"
+	cost 4200000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 40
+		"velocity" 200
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 40
+		"firing heat" 4
+
+outfit "Algol Seeker Cannon"
+	category "Secondary Weapons"
+	cost 14600000
+	thumbnail "outfit/pug seeker"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"gun ports" -1
+	weapon
+		sprite "projectile/typhoon"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "large explosion"
+		"die effect" "tiny explosion"
+		"inaccuracy" .1
+		"velocity" 12
+		"lifetime" 400
+		"reload" 180
+		"firing energy" 800
+		"firing fuel" 18
+		"firing force" 200
+		"firing heat" 3000
+		"acceleration" 1.8
+		"drag" .1
+		"turn" 6
+		"homing" 4
+		"tracking" .8
+		"shield damage" 7200
+		"hull damage" 12400
+		"piercing" .05
+		"hit force" 100
+		"slowing damage" .8
+		"heat damage" 400
+		"missile strength" 70
+		stream
+	description "tbd"

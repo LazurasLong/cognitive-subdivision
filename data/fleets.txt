@@ -1,0 +1,59 @@
+#fleets
+
+fleet "Algol Defense Fleet"
+	government "Algol"
+	names "algol defense"
+	personality
+		heroic surveillance
+		confusion 10
+	variant 2
+		"Mark II Incise (Fully Loaded)"
+		"Algol Carrier (Speedy)"
+		"Mark IV Scour" 4
+		"Algol Drone Fighter" 12
+	variant 3
+		"Mark II Incise (Shieldy)"
+		"Mark IV Scour" 2
+
+fleet "Algol Patrol Fleet"
+	government "Algol"
+	names "algol patrol"
+	personality
+		confusion 10
+		forbearing surveillance
+	variant 1
+		"Mark II Incise"
+		"Mark IV Scour" 2
+	variant 1
+		"Algol Carrier"
+		"Algol Drone Fighter" 12
+
+fleet "Algol Merchant"
+	government "Algol"
+	names "algol merchant"
+	cargo 4
+	personality
+		harvests appeasing pacifist
+	variant 1
+		"Algol Freighter"
+	variant 2
+		"Algol Freighter" 2
+	variant 4
+		"Algol Freighter" 3
+
+fleet "Outlaw Raid Fleet"
+	government "Outlaw"
+	names "Outlaw Raiders"
+	personality
+		nemesis plunders harvests
+		confusion 20
+	variant 1
+		"Falcon (Outlaw)" 8
+		"Leviathan (Outlaw)" 6
+		"Splinter (Outlaw)" 12
+	variant 2
+		"Falcon (Outlaw)" 10
+	variant 2
+		"Leviathan (Outlaw)" 8
+	variant 2
+		"Splinter (Outlaw)" 14

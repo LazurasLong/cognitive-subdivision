@@ -1,0 +1,115 @@
+outfit "Algol Generator"
+    category "Power"
+    cost 200000000
+    thumbnail "outfit/looper_temp"
+    "active cooling" 80
+    "cooling" 280
+    "cooling energy" 5.3
+    "energy capacity" 24000
+    "energy generation" 121
+    "heat generation" 150
+    "scan interference" .9
+    "radar jamming" 3
+    "outfit space" -80
+    "mass" 80
+    description "This device provides enormous cooling and energy capacity and seems to interfere with enemy sensors. It has a powerful built in energy generator."
+
+outfit "Algol Mini Generator"
+    category "Power"
+    cost 46000000
+    thumbnail "outfit/looper_mini_temp"
+    "active cooling" 18
+    "cooling" 60
+    "cooling energy" 1.4
+    "energy capacity" 5200
+    "energy generation" 24
+    "heat generation" 30
+    "scan interference" .2
+    "radar jamming" .6
+    "outfit space" -20
+    "mass" 20
+    description "tbd"
+
+outfit "Algol Energy Suspender"
+    category "Power"
+    cost 6250000
+    thumbnail "outfit/looper_suspender"
+    "cooling" 30
+    "energy capacity" 15600
+    "energy generation" 8
+    "heat generation" 10
+    "scan interference" .2
+    "radar jamming" .6
+    "outfit space" -20
+    "mass" 20
+    description "tbd"
+
+outfit "Tunneler Ramscoop"
+    category "Systems"
+    cost 4000000
+    thumbnail "outfit/tunneler_temp"
+    "ramscoop" 40
+    "energy generation" -3.4
+    "heat generation" 8.4
+    "outfit space" -12
+    "mass" 12
+    description "The Tunneler Ramscoop uses energy to capture more of the solar winds, making it extremely effective"
+
+outfit "Algol Scram Drive"
+	category "Systems"
+	cost 900000
+	thumbnail "outfit/hyperdrive"
+	"mass" 16
+	"outfit space" -16
+	"scram drive" .2
+	"jump fuel" 80
+	"hyperdrive" 1
+    "energy generation" -1.7
+	description "tbd"
+
+outfit "Algol Scanner"
+	category "Systems"
+	cost 420000
+	thumbnail "outfit/outfit scanner"
+	"mass" 8
+	"outfit space" -8
+	"outfit scan power" 42
+	"outfit scan speed" 1
+	"cargo scan power" 16
+	"cargo scan speed" 1
+	"atmosphere scan" 200
+	description "tbd"
+
+outfit "Algol Outfits Expansion"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/blue screwdriver"
+	"mass" 1
+	"outfit space" 20
+	"cargo space" -20
+	"cooling inefficiency" 1
+	"heat dissipation" -.02
+	unplunderable 1
+	description "tbd"
+
+outfit "Algol Cargo Expansion"
+	category "Systems"
+	cost 60000
+	thumbnail "outfit/red screwdriver"
+	"mass" 1
+	"cargo space" 20
+	"outfit space" -20
+    "cooling inefficiency" 0.1
+	"heat dissipation" -.001
+	unplunderable 1
+	description "tbd"
+
+outfit "Ultra Shield Generator"
+	category "Systems"
+	cost 12600000
+	thumbnail "outfit/large regenerator"
+	"mass" 100
+	"outfit space" -100
+	"shield generation" 16.7
+	"shield energy" 12
+	description "tbd"

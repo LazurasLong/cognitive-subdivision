@@ -1,0 +1,108 @@
+# engines
+
+outfit "Algol Small Thruster"
+	category "Engines"
+	"cost" 74000
+	thumbnail "outfit/tiny atomic thruster"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 11.2
+	"thrusting energy" .4
+	"thrusting heat" 1.5
+	"flare sprite" "effect/atomic flare/tiny"
+		"frame rate" 14
+	"flare sound" "atomic tiny"
+	description "tbd"
+
+outfit "Algol Medium Thruster"
+	category "Engines"
+	"cost" 178000
+	thumbnail "outfit/medium atomic thruster"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"thrust" 29.7
+	"thrusting energy" 0.9
+	"thrusting heat" 3.6
+	"flare sprite" "effect/atomic flare/medium"
+		"frame rate" 12
+	"flare sound" "atomic medium"
+	description ""
+
+outfit "Algol Large Thruster"
+	category "Engines"
+	"cost" 432000
+	thumbnail "outfit/huge atomic thruster"
+	"mass" 105
+	"outfit space" -105
+	"engine capacity" -105
+	"thrust" 78.8
+	"thrusting energy" 2.3
+	"thrusting heat" 8.7
+	"flare sprite" "effect/atomic flare/huge"
+		"frame rate" 10
+	"flare sound" "atomic huge"
+	description "tbd"
+
+outfit "Algol Small Steering"
+	category "Engines"
+	"cost" 60000
+	thumbnail "outfit/tiny atomic steering"
+	"mass" 13
+	"outfit space" -13
+	"engine capacity" -13
+	"turn" 303
+	"turning energy" 0.2
+	"turning heat" .9
+	description "tbd"
+
+outfit "Algol Medium Steering"
+	category "Engines"
+	"cost" 156000
+	thumbnail "outfit/medium atomic steering"
+	"mass" 31
+	"outfit space" -31
+	"engine capacity" -31
+	"turn" 777
+	"turning energy" .5
+	"turning heat" 2.1
+	description "tbd"
+
+outfit "Algol Large Steering"
+	category "Engines"
+	"cost" 376000
+	thumbnail "outfit/huge atomic steering"
+	"mass" 76
+	"outfit space" -76
+	"engine capacity" -76
+	"turn" 2075
+	"turning energy" 1.2
+	"turning heat" 5.1
+	description "tbd"
+
+outfit "Algol Reverse Thruster"
+	category "Engines"
+	"cost" 74000
+	thumbnail "outfit/reverse thruster"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"reverse thrust" 11.2
+	"reverse thrusting energy" .4
+	"reverse thrusting heat" 1.5
+	description "tbd"
+
+outfit "Algol Afterburner"
+	category "Engines"
+	"cost" 1020000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 22
+	"outfit space" -22
+	"engine capacity" -22
+	"afterburner thrust" 43.5
+	"afterburner fuel" .06
+	"afterburner energy" 12.7
+	"afterburner heat" 15
+	"afterburner effect" "ionic afterburner"
+	description "tbd"

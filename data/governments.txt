@@ -1,0 +1,102 @@
+government "Algol"
+	swizzle 3
+	"player reputation" 10
+	"attitude toward"
+		"Pirate" -.2
+		"Merchant" .2
+		"Outlaw" -100
+		"Drak" -1000
+		"Alpha" -100
+		"Quarg" - 1000
+		"Coalition" 1
+		"Heliarch" 1
+		"Deep" 1
+	"friendly hail" "friendly navy"
+    "hostile hail" "hostile navy"
+
+government "Outlaw"
+	swizzle 1
+	"player reputation" -10
+	"attitude toward"
+		"Algol" -10
+		"Merchant" -.2
+		"Pirate" .2
+		"Alpha" 1000
+		"Republic" - 10
+		"Deep" -100
+		"Pug" -0.1
+
+government "Pirate"
+	swizzle 6
+	color .78 0 0
+
+	"player reputation" -10
+	"attitude toward"
+		"Author" -.01
+		"Hai" -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" -.01
+		"Algol" -.01
+		"Outlaw" .01
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
+
+government "Coalition"
+	swizzle 5
+	color 1 .6 .7
+	language "Coalition"
+	"player reputation" 1
+	"attitude toward"
+		"Heliarch" 1
+		"Algol" .01
+
+government "Heliarch"
+	swizzle 0
+	color 1 .8 .5
+	"player reputation" 1
+	"friendly hail" "friendly heliarch"
+	"attitude toward"
+		"Quarg" -.01
+		"Coalition" 1
+		"Algol" .01
+
+government "Merchant"
+	swizzle 5
+
+	"player reputation" 10
+	"attitude toward"
+		"Pirate" -.2
+		"Korath" -.2
+		"Outlaw" -.2
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+
+government "Quarg"
+	swizzle 0
+	color .88 .77 0
+
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .01
+		"Kor Efret" .01
+		"Kor Mereti" -.01
+		"Kor Sestor" -.01
+		"Hai" .01
+		"Pirate" -.01
+		"Algol" -.01
+	"hostile hail" "hostile quarg"
+
+government "Drak"
+	swizzle 5
+	color 1 1 1
+	"player reputation" 1
+	"fine" 0
+	"attitude toward"
+		"Indigenous Lifeform" 1
+		"Algol" -.01
