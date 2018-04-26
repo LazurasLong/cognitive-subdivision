@@ -88,7 +88,7 @@ outfit "Algol anti-missile"
 outfit "Algol Seeker Cannon"
 	category "Secondary Weapons"
 	cost 14600000
-	thumbnail "outfit/pug seeker"
+	thumbnail "outfit/algol_seeker_cannon"
 	"mass" 80
 	"outfit space" -80
 	"weapon capacity" -80
