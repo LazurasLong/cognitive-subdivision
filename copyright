@@ -9,6 +9,10 @@ Files:
   images/ship/*
   images/outfit/Algol_Rapid_Fire.png
   images/outfit/Algol_Rapid_Fire_Turret.png
+  images/outfit/algol_energy_suspender_core.png
+  images/outfit/algol_mini_power_core.png
+  images/outfit/algol_power_core.png
+  images/outfit/algol_seeker_cannon.png
   sounds/*
 Copyright: Ollie Veil <o.veil@protonmail.com>
 License: CC-BY-SA-4.0
