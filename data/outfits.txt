@@ -12,7 +12,7 @@
 outfit "Algol Generator"
     category "Power"
     cost 200000000
-    thumbnail "outfit/looper_temp"
+    thumbnail "outfit/algol_power_core"
     "active cooling" 80
     "cooling" 280
     "cooling energy" 5.3
@@ -28,7 +28,7 @@ outfit "Algol Generator"
 outfit "Algol Mini Generator"
     category "Power"
     cost 46000000
-    thumbnail "outfit/looper_mini_temp"
+    thumbnail "outfit/algol_mini_power_core"
     "active cooling" 18
     "cooling" 60
     "cooling energy" 1.4
@@ -44,7 +44,7 @@ outfit "Algol Mini Generator"
 outfit "Algol Energy Suspender"
     category "Power"
     cost 6250000
-    thumbnail "outfit/looper_suspender"
+    thumbnail "outfit/algol_energy_suspender_core"
     "cooling" 30
     "energy capacity" 15600
     "energy generation" 8
