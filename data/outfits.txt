@@ -58,7 +58,7 @@ outfit "Algol Energy Suspender"
 outfit "Tunneler Ramscoop"
     category "Systems"
     cost 4000000
-    thumbnail "outfit/tunneler_temp"
+    thumbnail "outfit/Tunneler_Ramscoop"
     "ramscoop" 40
     "energy generation" -3.4
     "heat generation" 8.4
