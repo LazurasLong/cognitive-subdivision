@@ -53,7 +53,7 @@ ship "Mark II Incise" "Mark II Incise (Fully Loaded)"
 		"Ultra Shield Generator"
 		"Algol Afterburner" 2
 
-ship "Algol Carrier" "Algol Carrier (Speedy)"
+ship "Mark V Fracture" "Mark V Fracture (Speedy)"
 	outfits
 		"Algol Rapid Gun Turret"
 		"Algol anti-missile" 2
