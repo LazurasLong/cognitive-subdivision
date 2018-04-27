@@ -97,7 +97,7 @@ outfit "Algol Seeker Cannon"
 		sprite "projectile/typhoon"
 			"frame rate" 4
 			"random start frame"
-		sound "algol_seeker"
+		sound "seeker_cannon_shot"
 		icon "icon/typhoon"
 		"fire effect" "typhoon fire"
 		"hit effect" "large explosion"
