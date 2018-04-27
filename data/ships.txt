@@ -75,10 +75,10 @@ ship "Mark II Incise"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "After their almost complete annihilation from the Drak, the Algol reshaped their old destroyers to fight long enough to cause serious damage."
+	description "After their almost complete extinction during the War of Incognition, the Algol reshaped their old destroyers to survive long enough to cause serious damage."
 	description "The Mark II Incise class Destroyer improves on the formula by also expanding on weapon space and engine space, at the cost of more mass."
 
-ship "Algol Carrier"
+ship "Mark V Fracture"
 	sprite "ship/Algol_Carrier"
 	attributes
 		category "Medium Warship"
