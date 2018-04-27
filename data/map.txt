@@ -10,7 +10,7 @@
 
 
 system Antiphon
-	pos -951.25 291.994
+	pos -1321.22 768.215
 	government Algol
 	habitable 912.6
 	belt 1440
@@ -74,7 +74,7 @@ system Antiphon
 			offset 194.006
 
 system Eva
-	pos -1093.25 46.99
+	pos -1281.82 993.981
 	government Algol
 	habitable 135
 	belt 1248
@@ -95,7 +95,6 @@ system Eva
 	fleet "Algol Defense Fleet" 1400
 	fleet "Algol Patrol Fleet" 1000
 	fleet "Algol Merchant" 800
-	fleet "Outlaw Raid Fleet" 10000
 	object
 		sprite star/m8
 		period 10
@@ -142,7 +141,7 @@ system Eva
 			offset 275.842
 
 system Ostara
-	pos -1027.62 5.71924
+	pos -1370.11 949.645
 	government Algol
 	habitable 320
 	belt 1693
@@ -198,7 +197,7 @@ system Ostara
 			period 12.5402
 
 system "Pi Novus"
-	pos -1033.62 70.7192
+	pos -1337.15 877.108
 	government Algol
 	habitable 1050.92
 	belt 1492
@@ -225,7 +224,6 @@ system "Pi Novus"
 	trade Plastic 480
 	fleet "Algol Patrol Fleet" 2000
 	fleet "Algol Merchant" 1000
-	fleet "Outlaw Raid Fleet" 8000
 	object
 		sprite star/g5
 		distance 38.5019
@@ -273,7 +271,7 @@ system "Pi Novus"
 			period 58.2267
 
 system Vendrizi
-	pos -1072.62 129.719
+	pos -1295.83 837.405
 	government Algol
 	habitable 8640
 	belt 1970
@@ -326,7 +324,7 @@ system Vendrizi
 		period 426.889
 
 system Alepus
-	pos -1064.62 -70.2808
+	pos -1393.4 975.96
 	government Outlaw
 	habitable 135
 	belt 1368
@@ -361,7 +359,7 @@ system Alepus
 		period 3545.47
 
 system "Gamma Olympia"
-	pos -1045.62 -123.281
+	pos -1436.3 1085.27
 	government Outlaw
 	habitable 912.6
 	belt 1589
@@ -414,7 +412,7 @@ system "Gamma Olympia"
 			period 38.1545
 
 system "Proxima Ithacae"
-	pos -1009.62 -79.2808
+	pos -1383.43 1066.82
 	government Outlaw
 	habitable 425.92
 	belt 1126
