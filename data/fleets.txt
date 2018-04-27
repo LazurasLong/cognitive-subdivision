@@ -17,7 +17,7 @@ fleet "Algol Defense Fleet"
 		confusion 10
 	variant 2
 		"Mark II Incise (Fully Loaded)"
-		"Algol Carrier (Speedy)"
+		"Mark V Fracture (Speedy)"
 		"Mark IV Scour" 4
 		"Algol Drone Fighter" 12
 	variant 3
@@ -34,7 +34,7 @@ fleet "Algol Patrol Fleet"
 		"Mark II Incise"
 		"Mark IV Scour" 2
 	variant 1
-		"Algol Carrier"
+		"Mark V Fracture"
 		"Algol Drone Fighter" 12
 
 fleet "Algol Merchant"
