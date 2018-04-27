@@ -11,7 +11,7 @@
 
 shipyard "Algol Shipyards"
     "Mark II Incise"
-    "Algol Carrier"
+    "Mark V Fracture"
     "Mark IV Scour"
     "Algol Freighter"
     "Algol Drone Fighter"
