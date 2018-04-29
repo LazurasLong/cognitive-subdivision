@@ -50,19 +50,19 @@ fleet "Algol Merchant"
 	variant 4
 		"Algol Freighter" 3
 
-fleet "Outlaw Raid Fleet"
-	government "Outlaw"
-	names "Outlaw Raiders"
+fleet "Hand of Eden Raid Fleet"
+	government "Hand of Eden"
+	names "Hand of Eden Raiders"
 	personality
 		nemesis plunders harvests
 		confusion 20
 	variant 1
-		"Falcon (Outlaw)" 8
-		"Leviathan (Outlaw)" 6
-		"Splinter (Outlaw)" 12
+		"Falcon (Hand of Eden)" 8
+		"Leviathan (Hand of Eden)" 6
+		"Splinter (Hand of Eden)" 12
 	variant 2
-		"Falcon (Outlaw)" 10
+		"Falcon (Hand of Eden)" 10
 	variant 2
-		"Leviathan (Outlaw)" 8
+		"Leviathan (Hand of Eden)" 8
 	variant 2
-		"Splinter (Outlaw)" 14
+		"Splinter (Hand of Eden)" 14

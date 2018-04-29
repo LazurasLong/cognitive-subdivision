@@ -15,7 +15,7 @@ government "Algol"
 	"attitude toward"
 		"Pirate" -.2
 		"Merchant" .2
-		"Outlaw" -100
+		"Hand of Eden" -100
 		"Drak" -1000
 		"Alpha" -100
 		"Quarg" -1000
@@ -25,7 +25,7 @@ government "Algol"
 	"friendly hail" "friendly navy"
     "hostile hail" "hostile navy"
 
-government "Outlaw"
+government "Hand of Eden"
 	swizzle 1
 	"player reputation" -10
 	"attitude toward"
@@ -49,7 +49,7 @@ government "Pirate"
 		"Merchant" -.1
 		"Syndicate" -.01
 		"Algol" -.01
-		"Outlaw" .01
+		"Hand of Eden" .01
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -82,7 +82,7 @@ government "Merchant"
 	"attitude toward"
 		"Pirate" -.2
 		"Korath" -.2
-		"Outlaw" -.2
+		"Hand of Eden" -.2
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly civilian"
