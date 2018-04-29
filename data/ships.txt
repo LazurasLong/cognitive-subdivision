@@ -181,7 +181,7 @@ ship "Mark IV Scour"
 		"Tunneler Ramscoop"
 		"Algol Mini Generator"
 		"Algol Scanner"
-	
+
 		"Algol Medium Thruster"
 		"Algol Medium Steering"
 		"Algol Reverse Thruster"
@@ -229,7 +229,7 @@ ship "Algol Freighter"
 	outfits
 		"Tunneler Ramscoop"
 		"Algol Energy Suspender" 2
-	
+
 		"Algol Large Thruster"
 		"Algol Large Steering"
 		"Algol Scram Drive"

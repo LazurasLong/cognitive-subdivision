@@ -10,61 +10,61 @@
 
 
 outfit "Algol Generator"
-    category "Power"
-    cost 200000000
-    thumbnail "outfit/algol_power_core"
-    "active cooling" 80
-    "cooling" 280
-    "cooling energy" 5.3
-    "energy capacity" 24000
-    "energy generation" 121
-    "heat generation" 150
-    "scan interference" .9
-    "radar jamming" 3
-    "outfit space" -80
-    "mass" 80
-    description "This device provides enormous cooling and energy capacity and seems to interfere with enemy sensors. It has a powerful built in energy generator."
+	category "Power"
+	cost 200000000
+	thumbnail "outfit/algol_power_core"
+	"active cooling" 80
+	"cooling" 280
+	"cooling energy" 5.3
+	"energy capacity" 24000
+	"energy generation" 121
+	"heat generation" 150
+	"scan interference" .9
+	"radar jamming" 3
+	"outfit space" -80
+	"mass" 80
+	description "This device provides enormous cooling and energy capacity and seems to interfere with enemy sensors. It has a powerful built in energy generator."
 
 outfit "Algol Mini Generator"
-    category "Power"
-    cost 46000000
-    thumbnail "outfit/algol_mini_power_core"
-    "active cooling" 18
-    "cooling" 60
-    "cooling energy" 1.4
-    "energy capacity" 5200
-    "energy generation" 24
-    "heat generation" 30
-    "scan interference" .2
-    "radar jamming" .6
-    "outfit space" -20
-    "mass" 20
-    description "tbd"
+	category "Power"
+	cost 46000000
+	thumbnail "outfit/algol_mini_power_core"
+	"active cooling" 18
+	"cooling" 60
+	"cooling energy" 1.4
+	"energy capacity" 5200
+	"energy generation" 24
+	"heat generation" 30
+	"scan interference" .2
+	"radar jamming" .6
+	"outfit space" -20
+	"mass" 20
+	description "tbd"
 
 outfit "Algol Energy Suspender"
-    category "Power"
-    cost 6250000
-    thumbnail "outfit/algol_energy_suspender_core"
-    "cooling" 30
-    "energy capacity" 15600
-    "energy generation" 8
-    "heat generation" 10
-    "scan interference" .2
-    "radar jamming" .6
-    "outfit space" -20
-    "mass" 20
-    description "tbd"
+	category "Power"
+	cost 6250000
+	thumbnail "outfit/algol_energy_suspender_core"
+	"cooling" 30
+	"energy capacity" 15600
+	"energy generation" 8
+	"heat generation" 10
+	"scan interference" .2
+	"radar jamming" .6
+	"outfit space" -20
+	"mass" 20
+	description "tbd"
 
 outfit "Tunneler Ramscoop"
-    category "Systems"
-    cost 4000000
-    thumbnail "outfit/Tunneler_Ramscoop"
-    "ramscoop" 40
-    "energy generation" -3.4
-    "heat generation" 8.4
-    "outfit space" -12
-    "mass" 12
-    description "The Tunneler Ramscoop uses energy to capture more of the solar winds, making it extremely effective"
+	category "Systems"
+	cost 4000000
+	thumbnail "outfit/Tunneler_Ramscoop"
+	"ramscoop" 40
+	"energy generation" -3.4
+	"heat generation" 8.4
+	"outfit space" -12
+	"mass" 12
+	description "The Tunneler Ramscoop uses energy to capture more of the solar winds, making it extremely effective"
 
 outfit "Algol Scram Drive"
 	category "Systems"
