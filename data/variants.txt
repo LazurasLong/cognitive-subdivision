@@ -12,6 +12,7 @@
 ship "Mark II Incise" "Mark II Incise (Shieldy)"
 	outfits
 		"Algol Seeker Cannon" 2
+		"Algol Seeker Orb" 800
 		"Algol Rapid Gun Turret" 6
 		"Algol anti-missile"
 		"Tunneler Ramscoop"
@@ -26,6 +27,7 @@ ship "Mark II Incise" "Mark II Incise (Shieldy)"
 ship "Mark II Incise" "Mark II Incise (Speedy)"
 	outfits
 		"Algol Seeker Cannon" 2
+		"Algol Seeker Orb" 800
 		"Algol Rapid Gun Turret" 6
 		"Algol anti-missile"
 		"Tunneler Ramscoop"
@@ -39,8 +41,9 @@ ship "Mark II Incise" "Mark II Incise (Speedy)"
 
 ship "Mark II Incise" "Mark II Incise (Fully Loaded)"
 	outfits
-		"Algol Outfits Expansion" 3
+		"Outfits Pico Reassembler" 3
 		"Algol Seeker Cannon" 2
+		"Algol Seeker Orb" 800
 		"Algol Rapid Gun Turret" 6
 		"Algol anti-missile"
 		"Tunneler Ramscoop"
@@ -52,6 +55,31 @@ ship "Mark II Incise" "Mark II Incise (Fully Loaded)"
 		"Algol Scram Drive"
 		"Ultra Shield Generator"
 		"Algol Afterburner" 2
+
+ship "Mark V Fracture" "Mark V Fracture (Speed Trapper)"
+	outfits
+		"Algol Ion Field"
+		"Algol anti-missile" 2
+		"Tunneler Ramscoop"
+		"Algol Mini Generator" 2
+		"Algol Scanner"
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Reverse Thruster"
+		"Algol Scram Drive"
+		"Algol Afterburner"
+
+ship "Mark V Fracture" "Mark V Fracture (Trapper)"
+	outfits
+		"Algol Ion Field"
+		"Algol anti-missile" 2
+		"Tunneler Ramscoop"
+		"Algol Mini Generator" 2
+		"Algol Scanner"
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Reverse Thruster"
+		"Algol Scram Drive"
 
 ship "Mark V Fracture" "Mark V Fracture (Speedy)"
 	outfits
