@@ -13,16 +13,19 @@ fleet "Algol Defense Fleet"
 	government "Algol"
 	names "algol defense"
 	personality
-		heroic surveillance
+		heroic surveillance unconstrained
 		confusion 10
-	variant 2
+	variant 5
 		"Mark II Incise (Fully Loaded)"
-		"Mark V Fracture (Speedy)"
-		"Mark IV Scour" 4
-		"Algol Drone Fighter" 12
-	variant 3
-		"Mark II Incise (Shieldy)"
+		"Mark V Fracture (Speed Trapper)"
 		"Mark IV Scour" 2
+		"Mark II Lacuna" 12
+	variant 10
+		"Mark II Incise (Shieldy)" 2
+		"Mark VII Rift" 6
+	variant 10
+		"Mark V Fracture (Speedy)" 2
+		"Mark II Lacuna" 24
 
 fleet "Algol Patrol Fleet"
 	government "Algol"
@@ -30,22 +33,27 @@ fleet "Algol Patrol Fleet"
 	personality
 		confusion 10
 		forbearing surveillance
-	variant 1
+	variant 5
 		"Mark II Incise"
-		"Mark IV Scour" 2
-	variant 1
+		"Mark VII Rift" 2
+	variant 5
 		"Mark V Fracture"
-		"Algol Drone Fighter" 12
+		"Mark II Lacuna" 12
+	variant 15
+		"Mark IV Scour" 2
+	variant 15
+		"Mark V Fracture (Trapper)"
+		"Mark II Lacuna" 12
 
 fleet "Algol Merchant"
 	government "Algol"
 	names "algol merchant"
 	cargo 4
 	personality
-		harvests appeasing pacifist
+		mute pacifist appeasing harvests 
 	variant 1
 		"Algol Freighter"
-	variant 2
+	variant 3
 		"Algol Freighter" 2
 	variant 4
 		"Algol Freighter" 3
@@ -54,15 +62,18 @@ fleet "Hand of Eden Raid Fleet"
 	government "Hand of Eden"
 	names "Hand of Eden Raiders"
 	personality
-		nemesis plunders harvests
+		harvests coward plunders
 		confusion 20
-	variant 1
+	variant 10
+		"Falcon (Hand of Eden)" 4
+		"Leviathan (Hand of Eden)" 3
+		"Splinter (Hand of Eden)" 6
+	variant 20
 		"Falcon (Hand of Eden)" 8
 		"Leviathan (Hand of Eden)" 6
+	variant 40
+		"Leviathan (Hand of Eden)" 6
 		"Splinter (Hand of Eden)" 12
-	variant 2
-		"Falcon (Hand of Eden)" 10
-	variant 2
-		"Leviathan (Hand of Eden)" 8
-	variant 2
-		"Splinter (Hand of Eden)" 14
+	variant 40
+		"Falcon (Hand of Eden)" 8
+		"Splinter (Hand of Eden)" 12
