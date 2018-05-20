@@ -22,6 +22,7 @@ outfit "Algol Small Thruster"
 	"flare sprite" "effect/atomic flare/tiny"
 		"frame rate" 14
 	"flare sound" "atomic tiny"
+	"slowing resistance" 2
 	description "tbd"
 
 outfit "Algol Medium Thruster"
@@ -37,6 +38,7 @@ outfit "Algol Medium Thruster"
 	"flare sprite" "effect/atomic flare/medium"
 		"frame rate" 12
 	"flare sound" "atomic medium"
+	"slowing resistance" 8
 	description ""
 
 outfit "Algol Large Thruster"
@@ -52,6 +54,7 @@ outfit "Algol Large Thruster"
 	"flare sprite" "effect/atomic flare/huge"
 		"frame rate" 10
 	"flare sound" "atomic huge"
+	"slowing resistance" 20
 	description "tbd"
 
 outfit "Algol Small Steering"
@@ -100,6 +103,7 @@ outfit "Algol Reverse Thruster"
 	"reverse thrust" 11.2
 	"reverse thrusting energy" .4
 	"reverse thrusting heat" 1.5
+	"slowing resistance" 2
 	description "tbd"
 
 outfit "Algol Afterburner"
@@ -114,4 +118,5 @@ outfit "Algol Afterburner"
 	"afterburner energy" 12.7
 	"afterburner heat" 15
 	"afterburner effect" "ionic afterburner"
+	"slowing resistance" 30
 	description "tbd"

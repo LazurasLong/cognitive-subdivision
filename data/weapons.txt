@@ -11,65 +11,67 @@
 
 outfit "Algol Rapid Gun Turret"
 	category "Turrets"
-	cost 8200000
+	cost 5330000
 	thumbnail "outfit/Algol_Rapid_Fire_Turret"
 	"mass" 40
 	"outfit space" -40
 	"weapon capacity" -40
 	"turret mounts" -1
 	weapon
-		sprite "projectile/Algol_Rapid_Fire"
+		sprite "projectile/Algol Rapid Fire"
 			"frame rate" 6
 			"random start frame"
 		"hardpoint sprite" "hardpoint/algol_rapid_fire_turret"
-		"hardpoint offset" 14.3
+		"hardpoint offset" 10
 		sound "rapid_fire"
 		"hit effect" "blaster impact"
 		"inaccuracy" .6
 		"turret turn" 3
 		"velocity" 40
-		"lifetime" 60
+		"lifetime" 40
 		"reload" 10
 		"firing energy" 100
 		"firing force" 16
 		"firing heat" 100
 		"shield damage" 167
 		"hull damage" 116
-		"piercing" .1
+		"piercing" .15
+		"hit force" 60
 		cluster
 	description "tbd"
 
 outfit "Algol Rapid Gun"
 	category "Guns"
-	cost 2000000
+	cost 1300000
 	thumbnail "outfit/Algol_Rapid_Fire"
 	"mass" 8
 	"outfit space" -8
 	"weapon capacity" -8
 	"gun ports" -1
 	weapon
-		sprite "projectile/Algol_Rapid_Fire"
+		sprite "projectile/Algol Rapid Fire"
 			"frame rate" 6
 			"random start frame"
 		sound "rapid_fire"
 		"hit effect" "blaster impact"
 		"inaccuracy" .6
 		"velocity" 40
-		"lifetime" 60
+		"lifetime" 40
 		"reload" 40
 		"firing energy" 100
 		"firing force" 16
 		"firing heat" 100
 		"shield damage" 167
 		"hull damage" 116
-		"piercing" .1
+		"piercing" .15
+		"hit force" 60
 		stream
 	description "tbd"
 
 outfit "Algol anti-missile"
 	category "Turrets"
 	cost 4200000
-	thumbnail "outfit/heavy anti-missile"
+	thumbnail "outfit/algol_anti-missile_particle_turret"
 	"mass" 16
 	"outfit space" -16
 	"weapon capacity" -16
@@ -77,50 +79,115 @@ outfit "Algol anti-missile"
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
-		"hit effect" "large anti-missile"
-		"anti-missile" 40
+		"hit effect" "algol am beam"
+		"anti-missile" 110
 		"velocity" 200
 		"lifetime" 1
-		"reload" 3
+		"reload" 15
 		"firing energy" 40
 		"firing heat" 4
+	description "tbd"
+
+effect "algol am beam"
+	sprite "effect/algol_anti_missile"
+		"no repeat"
+		"frame rate" 24
+	sound "heavy anti-missile"
+	"lifetime" 16
+	"velocity scale" 0
+	
 
 outfit "Algol Seeker Cannon"
 	category "Secondary Weapons"
-	cost 14600000
+	cost 6570000
 	thumbnail "outfit/algol_seeker_cannon"
 	"mass" 80
 	"outfit space" -80
 	"weapon capacity" -80
 	"gun ports" -1
+	"seeker orb capacity" 400
 	weapon
 		sprite "projectile/typhoon"
 			"frame rate" 4
 			"random start frame"
 		sound "seeker_cannon_shot"
+		ammo "Algol Seeker Orb"
 		icon "icon/typhoon"
 		"fire effect" "typhoon fire"
 		"hit effect" "large explosion"
 		"die effect" "tiny explosion"
 		"inaccuracy" .1
-		"velocity" 12
-		"lifetime" 400
-		"reload" 180
-		"firing energy" 800
-		"firing fuel" 18
-		"firing force" 200
-		"firing heat" 3000
-		"acceleration" 1.8
-		"drag" .1
-		"turn" 6
+		"velocity" 18
+		"random velocity" 2
+		"lifetime" 150
+		"reload" 210
+		"firing energy" 300
+		"firing fuel" 6
+		"firing force" 300
+		"firing heat" 1000
+		"acceleration" 1.4
+		"drag" .06
+		"turn" 3
 		"homing" 4
-		"tracking" .8
-		"shield damage" 7200
-		"hull damage" 12400
+		"tracking" .9
+		"shield damage" 2440
+		"hull damage" 2928
 		"piercing" .05
-		"hit force" 100
-		"slowing damage" .8
-		"heat damage" 400
-		"missile strength" 70
+		"hit force" 600
+		"heat damage" 1200
+		"missile strength" 120
 		stream
-	description "tbd"
+	description "This weapon uses a zepto level assembler to mold a thick plasma-lite energy layer around a spinning seeker orb, then releases the projectile at high velocity."
+	description "The projectile damages its target by ramming it till it dissipates. The impact can instantly rip through even the strongest of human shields and hulls."
+
+outfit "Algol Seeker Orb"
+    plural "Algol Seeker Orbs"
+    category "Ammunition"
+    cost 100
+    thumbnail "outfit/algol_seeker_orb"
+    "mass" .001
+    "seeker orb capacity" -1
+    description "This small orb contains an advanced tracking device that allows it to keep lock of a target. Resizable exhausts allow it to control its spin rate at different directions. Its material is highly resistant to heat and kinetic force allowing it to survive against even the Algol's strongest Anti-Missile weaponry."
+
+outfit "Algol Ion Field"
+	category "Turrets"
+	cost 4600000
+	thumbnail "outfit/algol_ion_field"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	"ion field configuration" -1
+	weapon
+		sprite "projectile/ion field+0"
+		"hardpoint sprite" "hardpoint/algol_ion_field"
+		"hardpoint offset" 0
+		sound "plasma"
+		"fire effect" "ion field"
+		"hit effect" "ion impact" 2
+		"inaccuracy" 1
+		"turret turn" 6
+		"velocity" 0
+		"lifetime" 1
+		"reload" 180
+		"firing energy" 1200
+		"firing force" 1
+		"firing heat" 200
+		"blast radius" 600
+		"trigger radius" 1000
+		"shield damage" 80
+		"hull damage" 40
+		"piercing" .9
+		"hit force" 10
+		"ion damage" 40
+		safe
+	description "The Ion Field was designed to to fit on Fracture carriers and is used in patrol units and even the Algol's main defense fleets."
+	description "It's well suited as a tactical weapon for disabling swarms of small ships as well as keeping enemies from coming to close."
+
+effect "ion field"
+	sprite "projectile/ion field"
+			"no repeat"
+			"frame rate" 32
+	"lifetime" 15
+	"random angle" 45
+	"random spin" 12
