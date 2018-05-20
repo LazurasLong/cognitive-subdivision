@@ -8,70 +8,69 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-
 system Antiphon
-	pos -1321.22 768.215
-	government Algol
-	habitable 912.6
-	belt 1440
-	link Vendrizi
-	asteroids "small rock" 5 1.26
-	asteroids "medium rock" 15 1.3944
-	asteroids "large rock" 2 1.4616
-	asteroids "small metal" 7 2.1336
-	asteroids "medium metal" 4 1.3272
-	asteroids "large metal" 4 1.9488
-	minables gold 2 1.868
-	fleet "Algol Patrol Fleet" 2000
-	fleet "Algol Merchant" 1000
-	object
-		sprite star/k0
-		distance 52.2716
-		period 15.6945
-		offset 180
-	object
-		sprite star/k5
-		distance 59.7284
-		period 15.6945
-	object
-		sprite planet/rock4
-		distance 244.088
-		period 50.4941
-	object
-		sprite planet/lava6
-		distance 474.448
-		period 136.837
-	object
-		sprite planet/ocean9
-		distance 728.858
-		period 260.546
-	object
-		sprite planet/gas8
-		distance 1136.67
-		period 507.423
+		pos -1314.22 730.215
+		government Algol
+		habitable 912.6
+		belt 1440
+		link Vendrizi
+		asteroids "small rock" 5 1.26
+		asteroids "medium rock" 15 1.3944
+		asteroids "large rock" 2 1.4616
+		asteroids "small metal" 7 2.1336
+		asteroids "medium metal" 4 1.3272
+		asteroids "large metal" 4 1.9488
+		minables gold 2 1.868
+		fleet "Algol Patrol Fleet" 2000
+		fleet "Algol Merchant" 1000
 		object
-			sprite planet/dust1
-			distance 195
-			period 14.4954
-	object
-		sprite planet/gas14
-		distance 2867.76
-		period 2033.45
+			sprite star/k0
+			distance 52.2716
+			period 15.6945
+			offset 180
 		object
-			sprite planet/luna
-			distance 289.718
-			period 20.0827
-			offset 224.593
+			sprite star/k5
+			distance 59.7284
+			period 15.6945
 		object
-			sprite planet/rhea
-			distance 424.316
-			period 35.5953
-			offset 168.469
-		object "New Door"
-			sprite planet/europa
-			distance 839.395
-			period 99.0395
-			offset 194.006
+			sprite planet/rock4
+			distance 244.088
+			period 50.4941
+		object
+			sprite planet/lava6
+			distance 474.448
+			period 136.837
+		object
+			sprite planet/ocean9
+			distance 728.858
+			period 260.546
+		object
+			sprite planet/gas8
+			distance 1136.67
+			period 507.423
+			object
+				sprite planet/dust1
+				distance 195
+				period 14.4954
+		object
+			sprite planet/gas14
+			distance 2867.76
+			period 2033.45
+			object
+				sprite planet/luna
+				distance 289.718
+				period 20.0827
+				offset 224.593
+			object
+				sprite planet/rhea
+				distance 424.316
+				period 35.5953
+				offset 168.469
+			object "New Door"
+				sprite planet/europa
+				distance 839.395
+				period 99.0395
+				offset 194.006
 
 system Eva
 	pos -1281.82 993.981
@@ -92,8 +91,7 @@ system Eva
 	trade Medical 540
 	trade Metal 860
 	trade Plastic 480
-	fleet "Algol Defense Fleet" 1400
-	fleet "Algol Patrol Fleet" 1000
+	fleet "Algol Defense Fleet" 1000
 	fleet "Algol Merchant" 800
 	object
 		sprite star/m8
@@ -271,13 +269,13 @@ system "Pi Novus"
 			period 58.2267
 
 system Vendrizi
-	pos -1295.83 837.405
+	pos -1299.83 845.405
 	government Algol
 	habitable 8640
 	belt 1970
-	link Antiphon
 	link Eva
 	link "Pi Novus"
+	link Antiphon
 	asteroids "small rock" 103 3.444
 	asteroids "medium rock" 3 4.2
 	asteroids "large rock" 16 3.066
@@ -325,7 +323,7 @@ system Vendrizi
 
 system Alepus
 	pos -1393.4 975.96
-	government Hand of Eden
+	government "Hand of Eden"
 	habitable 135
 	belt 1368
 	asteroids "medium rock" 7 6.061
@@ -359,8 +357,8 @@ system Alepus
 		period 3545.47
 
 system "Gamma Olympia"
-	pos -1436.3 1085.27
-	government Hand of Eden
+	pos -1375.3 1109.27
+	government "Hand of Eden"
 	habitable 912.6
 	belt 1589
 	asteroids "medium metal" 3 3.1212
@@ -412,8 +410,8 @@ system "Gamma Olympia"
 			period 38.1545
 
 system "Proxima Ithacae"
-	pos -1383.43 1066.82
-	government Hand of Eden
+	pos -1381.43 1067.82
+	government "Hand of Eden"
 	habitable 425.92
 	belt 1126
 	asteroids "small rock" 3 1.77
@@ -462,13 +460,16 @@ planet Damara
 	description tbd
 	spaceport tbd
 	outfitter "Algol Basics"
+	outfitter "Algol Advanced"
 
 planet Heaviside
 	landscape land/sky2
 	description tbd
 	spaceport tbd
-	shipyard "Algol Shipyards"
+	shipyard "World Hauler Basics"
 	outfitter "Algol Basics"
+	outfitter "Algol Advanced"
+	outfitter "Algol Navy Basics"
 
 planet Looper
 	attributes urban factory moon
@@ -482,19 +483,18 @@ planet "Norton Station"
 	landscape land/space6
 	description `The station appears constructed of materials that have never been seen before, with all corridors leading to a massive core of unknown purpose.`
 	spaceport `The outfitter is strange and piled with devices that sure appear to be out off this universe. As you walk down one of the bridges you see what appear to be ship hangers as well.`
-	shipyard "Algol Shipyards"
+	shipyard "Algol Navy"
+	shipyard "World Hauler Basics"
 	outfitter "Algol Basics"
+	outfitter "Algol Advanced"
+	outfitter "Algol Navy Basics"
+	outfitter "Algol Navy Advanced"
 
 planet Requiem
 	attributes farming fishing moon
 	landscape land/fields2
 	description `Large forests and various lakes cover the surface of the planet with patches of farmland all around. The moon is an agricultural center, supplying the majority of the food production to Looper.`
 	spaceport `The spacesport is one of only a few on this planet, surrounded by farms, a large lake becomes noticeable to the east. The congestion of ships makes it difficult to take in the beautiful scene with the buzzing of their engines.`
-
-planet "New Door"
-	attributes moon
-	landscape land/beach5
-	description `New Door is a beautiful site to see as its surface is mostly warm covered with tropical forests, jungles and five different oceans. A great tourist attraction.`
 
 planet Orias
 	landscape land/myrabella2
@@ -520,3 +520,8 @@ planet "Proxima Ithacae III"
 	landscape land/water11-harro
 	description tbd
 	spaceport tbd
+
+planet "New Door"
+	attributes moon
+	landscape land/beach5
+	description `New Door is a beautiful site to see as its surface is mostly warm and covered with tropical forests, jungles and several oceans.`
