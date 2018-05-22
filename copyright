@@ -3,7 +3,8 @@ Upstream-Name: cognitive-subdivision
 Upstream-Contact: Ollie Veil <o.veil@protonmail.com>
 Source: https://github.com/Variance-Moment/cognitive-subdivision
 
-Files: 
+Files:
+  images/effect/*
   images/hardpoint/*
   images/projectile/*
   images/ship/*
