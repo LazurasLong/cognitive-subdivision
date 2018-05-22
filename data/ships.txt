@@ -256,7 +256,7 @@ ship "Mark VII Rift"
 	description "tbd"
 
 ship "Mark II Lacuna"
-	sprite "ship/Algol_Drone_Fighter"
+	sprite "ship/Mark_II_Lacuna"
 	attributes
 		category "Fighter"
 		"cost" 3700000
@@ -293,9 +293,12 @@ ship "Mark II Lacuna"
 		"Algol Small Steering"
 		"Algol Reverse Thruster"
 
-	engine 0 22
-	gun -4 -23 "Algol Rapid Gun"
-	gun 4 -23 "Algol Rapid Gun"
+	engine -10 28
+	engine 10 28
+	engine -11 35
+	engine 11 35
+	gun -5 -39 "Algol Rapid Gun"
+	gun 5 -39 "Algol Rapid Gun"
 	explode "tiny explosion" 20
 	description "tbd"
 
