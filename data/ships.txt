@@ -302,8 +302,8 @@ ship "Mark II Lacuna"
 	explode "tiny explosion" 20
 	description "tbd"
 
-ship "Algol Freighter"
-	sprite "ship/Algol_Freighter"
+ship "WH Ogdod"
+	sprite "ship/World_Hauler_Ogdod"
 	attributes
 		category "Heavy Freighter"
 		"cost" 34000000
@@ -315,7 +315,7 @@ ship "Algol Freighter"
 		"drag" 8.6
 		"heat dissipation" .4
 		"fuel capacity" 600
-		"cargo space" 2262
+		"cargo space" 2272
 		"outfit space" 269
 		"weapon capacity" 0
 		"engine capacity" 181
@@ -324,7 +324,6 @@ ship "Algol Freighter"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
-		"ion resistance" .2
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
@@ -338,12 +337,102 @@ ship "Algol Freighter"
 		"Algol Large Steering"
 		"Algol Scram Drive"
 
-	engine -106 303
-	engine -86 303
-	engine -66 303
-	engine 86 303
-	engine 66 303
-	engine 106 303
+	engine -54 350
+	engine 54 350
+	engine -54 350
+	engine 54 350
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "WH Tetrak"
+	sprite "ship/World_Hauler_Tetrak"
+	attributes
+		category "Heavy Freighter"
+		"cost" 24000000
+		"shields" 110000
+		"hull" 32000
+		"required crew" 0
+		"bunks" 0
+		"mass" 824
+		"drag" 6.0
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 1136
+		"outfit space" 269
+		"weapon capacity" 0
+		"engine capacity" 181
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 210
+			"shield damage" 2800
+			"hull damage" 1000
+			"hit force" 4200
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 2
+
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Scram Drive"
+
+	engine -54 229
+	engine 54 229
+	engine -54 229
+	engine 54 229
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "WH Dyd"
+	sprite "ship/World_Hauler_Dyd"
+	attributes
+		category "Light Freighter"
+		"cost" 18000000
+		"shields" 88000
+		"hull" 26000
+		"required crew" 0
+		"bunks" 0
+		"mass" 646
+		"drag" 4.8
+		"heat dissipation" .5
+		"fuel capacity" 600
+		"cargo space" 568
+		"outfit space" 269
+		"weapon capacity" 0
+		"engine capacity" 181
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 165
+			"shield damage" 2200
+			"hull damage" 800
+			"hit force" 3300
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 2
+
+		"Algol Large Thruster"
+		"Algol Large Steering"
+		"Algol Scram Drive"
+
+	engine -54 191
+	engine 54 191
+	engine -54 191
+	engine 54 191
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
