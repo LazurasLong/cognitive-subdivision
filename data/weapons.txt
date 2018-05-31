@@ -191,3 +191,25 @@ effect "ion field"
 	"lifetime" 15
 	"random angle" 45
 	"random spin" 12
+
+outfit "Acecast Mining Laser"
+    category "Guns"
+    cost 20000
+    thumbnail "outfit/Acecast_Mining_Laser"
+    "mass" 8
+    "outfit space" -8
+    "weapon capacity" -8
+    "gun ports" -1
+    weapon
+        sprite "effect/large anti missile"
+            "frame rate" 1
+        sound "laser"
+        "hit effect" "electron impact"
+        "velocity" 200
+        "lifetime" 1
+        "reload" 1
+        "firing energy" .2
+        "firing heat" .5
+        "shield damage" .2
+        "hull damage" 4
+    description "Acecast's cheapest available laser. Capable of quickly cleaning space rock off precious ore, it's considered a space miner's best friend."
