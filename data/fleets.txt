@@ -50,7 +50,7 @@ fleet "Algol Merchant"
 	names "algol merchant"
 	cargo 4
 	personality
-		mute pacifist appeasing harvests 
+		mute appeasing harvests 
 	variant 1
 		"WH Ogdod"
 	variant 6
@@ -76,6 +76,39 @@ fleet "Algol Merchant"
 		"WH Dyd"
 		"WH Tetrak"
 		"WH Ogdod"
+
+fleet "Algol Conveyance"
+	government "Algol"
+	names "algol conveyance"
+	cargo 0
+	personality
+		mute
+	variant 1
+		"WH Jecha"
+	variant 1
+		"WH Medajech"
+	variant 1
+		"WH Unuc"
+	variant 3
+		"WH Unuc" 2
+	variant 3
+		"WH Medajech"
+		"WH Unuc"
+	variant 4
+		"WH Jecha"
+		"WH Unuc"
+	variant 5
+		"WH Jecha"
+		"WH Medajech"
+
+fleet "Algol Miner"
+	government "Algol"
+	names "algol miner"
+	cargo 0
+	personality
+		mute appeasing mining harvests
+	variant 1
+		"WH Ein"
 
 fleet "Hand of Eden Raid Fleet"
 	government "Hand of Eden"
