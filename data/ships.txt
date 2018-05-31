@@ -316,9 +316,9 @@ ship "WH Ogdod"
 		"heat dissipation" .4
 		"fuel capacity" 600
 		"cargo space" 2272
-		"outfit space" 269
+		"outfit space" 168
 		"weapon capacity" 0
-		"engine capacity" 181
+		"engine capacity" 120
 		"shield generation" 8.4
 		"shield energy" 6
 		"hull repair rate" 3.4
@@ -331,9 +331,9 @@ ship "WH Ogdod"
 			"hit force" 6000
 	outfits
 		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 2
+		"Algol Energy Suspender"
 
-		"Algol Large Thruster"
+		"Algol Medium Thruster"
 		"Algol Large Steering"
 		"Algol Scram Drive"
 
@@ -362,9 +362,9 @@ ship "WH Tetrak"
 		"heat dissipation" .5
 		"fuel capacity" 600
 		"cargo space" 1136
-		"outfit space" 269
+		"outfit space" 168
 		"weapon capacity" 0
-		"engine capacity" 181
+		"engine capacity" 120
 		"shield generation" 8.4
 		"shield energy" 6
 		"hull repair rate" 3.4
@@ -377,9 +377,9 @@ ship "WH Tetrak"
 			"hit force" 4200
 	outfits
 		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 2
+		"Algol Energy Suspender"
 
-		"Algol Large Thruster"
+		"Algol Medium Thruster"
 		"Algol Large Steering"
 		"Algol Scram Drive"
 
@@ -408,9 +408,9 @@ ship "WH Dyd"
 		"heat dissipation" .5
 		"fuel capacity" 600
 		"cargo space" 568
-		"outfit space" 269
+		"outfit space" 168
 		"weapon capacity" 0
-		"engine capacity" 181
+		"engine capacity" 120
 		"shield generation" 8.4
 		"shield energy" 6
 		"hull repair rate" 3.4
@@ -423,9 +423,9 @@ ship "WH Dyd"
 			"hit force" 3300
 	outfits
 		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 2
+		"Algol Energy Suspender"
 
-		"Algol Large Thruster"
+		"Algol Medium Thruster"
 		"Algol Large Steering"
 		"Algol Scram Drive"
 
@@ -433,6 +433,187 @@ ship "WH Dyd"
 	engine 54 191
 	engine -54 191
 	engine 54 191
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "WH Ein"
+	sprite "ship/World_Hauler_Ein"
+	attributes
+		category "Light Freighter"
+		"cost" 4500000
+		"shields" 22000
+		"hull" 6500
+		"required crew" 0
+		"bunks" 0
+		"mass" 162
+		"drag" 1.2
+		"heat dissipation" 2
+		"fuel capacity" 300
+		"cargo space" 90
+		"outfit space" 93
+		"weapon capacity" 8
+		"engine capacity" 49
+		"shield generation" 2.1
+		"shield energy" 1.5
+		"hull repair rate" 1
+		"hull energy" 0.5
+		"ramscoop" 1
+		"automaton" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 550
+			"hull damage" 200
+			"hit force" 800
+	outfits
+		"Acecast Mining Laser"
+		
+		"Algol Energy Suspender"
+
+		"Algol Small Thruster"
+		"Algol Medium Steering"
+		"Algol Scram Drive"
+
+	engine -26 42
+	engine 26 42
+	gun 0 -109
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	"final explode" "final explosion small"
+	description "tbd"
+
+ship "WH Unuc"
+	sprite "ship/World_Hauler_Unuc"
+	attributes
+		category "Transport"
+		"cost" 18000000
+		"shields" 132000
+		"hull" 20000
+		"required crew" 0
+		"bunks" 142
+		"mass" 485
+		"drag" 6
+		"heat dissipation" .6
+		"fuel capacity" 600
+		"cargo space" 0
+		"outfit space" 115
+		"weapon capacity" 0
+		"engine capacity" 67
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 165
+			"shield damage" 2200
+			"hull damage" 800
+			"hit force" 3300
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 1
+
+		"Algol Small Thruster" 2
+		"Algol Medium Steering"
+		"Algol Scram Drive"
+
+	engine 0 365
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "WH Medajech"
+	sprite "ship/World_Hauler_Medajech"
+	attributes
+		category "Transport"
+		"cost" 28800000
+		"shields" 185000
+		"hull" 28000
+		"required crew" 0
+		"bunks" 426
+		"mass" 679
+		"drag" 12
+		"heat dissipation" .4
+		"fuel capacity" 600
+		"cargo space" 0
+		"outfit space" 123
+		"weapon capacity" 0
+		"engine capacity" 75
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 210
+			"shield damage" 2800
+			"hull damage" 1000
+			"hit force" 4200
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 1
+
+		"Algol Medium Thruster"
+		"Algol Medium Steering"
+		"Algol Scram Drive"
+
+	engine 0 365
+	engine -102 365
+	engine 102 365
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "tbd"
+
+ship "WH Jecha"
+	sprite "ship/World_Hauler_Jecha"
+	attributes
+		category "Transport"
+		"cost" 50400000
+		"shields" 264000
+		"hull" 40000
+		"required crew" 0
+		"bunks" 852
+		"mass" 970
+		"drag" 21
+		"heat dissipation" .3
+		"fuel capacity" 600
+		"cargo space" 0
+		"outfit space" 141
+		"weapon capacity" 0
+		"engine capacity" 93
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"automaton" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 4000
+			"hull damage" 1500
+			"hit force" 6000
+	outfits
+		"Tunneler Ramscoop"
+		"Algol Energy Suspender" 1
+
+		"Algol Medium Thruster"
+		"Algol Medium Steering"
+		"Algol Small Thruster"
+		"Algol Scram Drive"
+
+	engine 0 365
+	engine -63.5 365
+	engine 63.5 365
+	engine -102 365
+	engine 102 365
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
