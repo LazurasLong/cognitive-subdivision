@@ -10,8 +10,8 @@
 
 
 fleet "Algol Defense Fleet"
-	government "Algol"
-	names "algol defense"
+	government "Algol Navy"
+	names 'algol'
 	personality
 		heroic surveillance unconstrained
 		confusion 10
@@ -28,8 +28,8 @@ fleet "Algol Defense Fleet"
 		"Mark II Lacuna" 24
 
 fleet "Algol Patrol Fleet"
-	government "Algol"
-	names "algol patrol"
+	government "Algol Navy"
+	names 'algol'
 	personality
 		confusion 10
 		forbearing surveillance
@@ -47,7 +47,7 @@ fleet "Algol Patrol Fleet"
 
 fleet "Algol Merchant"
 	government "Algol"
-	names "algol merchant"
+	names 'algol'
 	cargo 4
 	personality
 		mute appeasing harvests 
@@ -79,7 +79,7 @@ fleet "Algol Merchant"
 
 fleet "Algol Conveyance"
 	government "Algol"
-	names "algol conveyance"
+	names 'algol'
 	cargo 0
 	personality
 		mute
@@ -103,16 +103,71 @@ fleet "Algol Conveyance"
 
 fleet "Algol Miner"
 	government "Algol"
-	names "algol miner"
+	names 'algol'
 	cargo 0
 	personality
-		mute appeasing mining harvests
+		confusion 30
+		mute timid appeasing mining harvests
 	variant 1
 		"WH Ein"
 
+phrase 'algol'
+	word
+		"Qrngu"
+		"Ernyvgl"
+		"Fcnpr"
+		"Yrneare"
+		"Yvfgr"
+		"Yvaxre"
+		"Yvsr"
+		"Fgne"
+		"Znfgre"
+		"Ernqre"
+		"Qrib"
+		"Cyrnfhere"
+	word
+		" Yvsr"
+		" Fgne"
+		" Znfgre"
+		" Ernqre"
+		" Qrib"
+		" Cyrnfhere"
+		" Qrngu"
+		" Ernyvgl"
+		" Fcnpr"
+		" Yrneare"
+		" Yvfgr"
+		" Yvaxre"
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+		""
+	word
+		"'"
+	word
+		"oevatre"
+		"gnxre"
+		"nezrq"
+		"jvyyshy"
+		"jytby"
+		"nccebpurq"
+		"sberfrra"
+		"haqrefgbbq"
+		"vaurerag"
+		"oynpxrarq"
+		"juvgrarq"
+
 fleet "Hand of Eden Raid Fleet"
 	government "Hand of Eden"
-	names "Hand of Eden Raiders"
+	names 'hand of eden
 	personality
 		harvests coward plunders
 		confusion 20
