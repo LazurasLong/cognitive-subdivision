@@ -10,21 +10,32 @@
 
 
 government "Algol"
-	swizzle 3
-	"player reputation" 10
+	swizzle 4
+	"player reputation" 1
 	"attitude toward"
 		"Pirate" -.2
 		"Merchant" .25
 		"Hand of Eden" -.3
 		"Coalition" .01
-	"friendly hail" "friendly navy"
+		"Algol Navy" 1
+
+government "Algol Navy"
+	swizzle 4
+	"player reputation" 1
+	"attitude toward"
+		"Pirate" -.2
+		"Merchant" .25
+		"Hand of Eden" -.3
+		"Algol" 1
+	"friendly hail" "friendly algol navy"
 	"hostile hail" "hostile navy"
 
 government "Hand of Eden"
 	swizzle 1
 	"player reputation" -100
 	"attitude toward"
-		"Algol" -.3
+		"Algol" -.1
+		"Algol Navy" -.3
 		"Merchant" -.3
 		"Pirate" .01
 		"Hai (Unfettered)" .1
@@ -40,6 +51,7 @@ government "Hand of Eden"
 government "Pirate"
 	"attitude toward"
 		"Algol" -.01
+		"Algol Navy" -.01
 		"Hand of Eden" .01
 
 government "Coalition"
