@@ -51,18 +51,18 @@ ship "Mark II Incise"
 		"Algol Reverse Thruster"
 		"Algol Scram Drive"
 	
-	engine -77 228
-	engine 77 228
-	engine -50 231
-	engine 50 231
-	gun -39 -232 "Algol Seeker Cannon"
-	gun 39 -232 "Algol Seeker Cannon"
-	turret -31 -125 "Algol Rapid Gun Turret"
-	turret 31 -125 "Algol Rapid Gun Turret"
-	turret -31 -57 "Algol Rapid Gun Turret"
-	turret 31 -57 "Algol Rapid Gun Turret"
-	turret -31 21 "Algol Rapid Gun Turret"
-	turret 31 21 "Algol Rapid Gun Turret"
+	engine -76.5 230
+	engine 76.5 230
+	engine -50.5 232.5
+	engine 50.5 232.5
+	gun -38 -231.5 "Algol Seeker Cannon"
+	gun 38 -231.5 "Algol Seeker Cannon"
+	turret -30.5 -125 "Algol Rapid Gun Turret"
+	turret 30.5 -125 "Algol Rapid Gun Turret"
+	turret -30.5 -57 "Algol Rapid Gun Turret"
+	turret 30.5 -57 "Algol Rapid Gun Turret"
+	turret -30.5 21 "Algol Rapid Gun Turret"
+	turret 30.5 21 "Algol Rapid Gun Turret"
 	turret 0 83 "Algol anti-missile"
 	explode "small explosion" 25
 	explode "medium explosion" 35
@@ -113,25 +113,25 @@ ship "Mark V Fracture"
 		"Algol Reverse Thruster"
 		"Algol Scram Drive"
 	
-	engine -66 210
-	engine 66 210
-	engine -40 210
-	engine 40 210
-	turret 0 -142 "Algol Rapid Gun Turret"
-	turret -40 -96 "Algol anti-missile"
-	turret 40 -96 "Algol anti-missile"
-	fighter -74 -28 under left
-	fighter 74 -28 under right
-	fighter -74 15 under left
-	fighter 74 15 under right
-	fighter -74 58 under left
-	fighter 74 58 under right
-	fighter -74 -28 under left
-	fighter 74 -28 under right
-	fighter -74 15 under left
-	fighter 74 15 under right
-	fighter -74 58 under left
-	fighter 74 58 under right
+	engine -66 214
+	engine 66 214
+	engine -39.5 218
+	engine 39.5 218
+	turret 0 -149.5 "Algol Rapid Gun Turret"
+	turret -39 -102 "Algol anti-missile"
+	turret 39 -102 "Algol anti-missile"
+	fighter -75.5 -34.5 under left
+	fighter 75.5 -34.5 under right
+	fighter -75.5 9.5 under left
+	fighter 75.5 9.5 under right
+	fighter -75.5 52.5 under left
+	fighter 75.5 52.5 under right
+	fighter -75.5 -34.5 under left
+	fighter 75.5 -34.5 under right
+	fighter -75.5 9.5 under left
+	fighter 75.5 9.5 under right
+	fighter -75.5 52.5 under left
+	fighter 75.5 52.5 under right
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -183,17 +183,17 @@ ship "Mark IV Scour"
 		"Algol Afterburner"
 		"Algol Scram Drive"
 
-	engine -57 100
-	engine 57 100
-	engine -36 100
-	engine 36 100
-	engine -13 107
-	engine 13 107.
-	engine 0 120
-	gun 0 -67 "Algol Seeker Cannon"
-	turret 0 46 "Algol Rapid Gun Turret"
-	turret -54 69 "Algol Rapid Gun Turret"
-	turret 54 69 "Algol Rapid Gun Turret"
+	engine -56.5 99
+	engine 56.5 99
+	engine -36.5 99
+	engine 36.5 99
+	engine -13 106
+	engine 13 106
+	engine 0 119
+	gun 0 -66.5 "Algol Seeker Cannon"
+	turret 0 46.5 "Algol Rapid Gun Turret"
+	turret -54.5 68 "Algol Rapid Gun Turret"
+	turret 54.5 68 "Algol Rapid Gun Turret"
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
@@ -241,17 +241,17 @@ ship "Mark VII Rift"
 		"Algol Afterburner"
 		"Algol Scram Drive"
 
-	engine -16 40
-	engine 16 40
-	engine -14 44
-	engine 14 44
-	engine -10 48
-	engine 10 48
-	gun 0 -43 "Algol Rapid Gun"
-	gun -12 -43 "Algol Rapid Gun"
-	gun -8 -43 "Algol Rapid Gun"
-	gun 8 -43 "Algol Rapid Gun"
-	gun 12 -43 "Algol Rapid Gun"
+	engine -17 38.5
+	engine 17 38.5
+	engine -14.5 42.5
+	engine 14.5 42.5
+	engine -9.5 47.5
+	engine 9.5 47.5
+	gun 0 -42.5 "Algol Rapid Gun"
+	gun -12.5 -42.5 "Algol Rapid Gun"
+	gun -7.5 -42.5 "Algol Rapid Gun"
+	gun 7.5 -42.5 "Algol Rapid Gun"
+	gun 12.5 -42.5 "Algol Rapid Gun"
 	explode "small explosion" 20
 	description "tbd"
 
@@ -293,12 +293,12 @@ ship "Mark II Lacuna"
 		"Algol Small Steering"
 		"Algol Reverse Thruster"
 
-	engine -10 28
-	engine 10 28
-	engine -11 35
-	engine 11 35
-	gun -5 -39 "Algol Rapid Gun"
-	gun 5 -39 "Algol Rapid Gun"
+	engine -10 27
+	engine 10 27
+	engine -11.5 33.5
+	engine 11.5 33.5
+	gun -4.5 -38.5 "Algol Rapid Gun"
+	gun 4.5 -38.5 "Algol Rapid Gun"
 	explode "tiny explosion" 20
 	description "tbd"
 
@@ -477,9 +477,9 @@ ship "WH Ein"
 		"Algol Medium Steering"
 		"Algol Scram Drive"
 
-	engine -26 42
-	engine 26 42
-	gun 0 -109
+	engine -26 41
+	engine 26 41
+	gun 0 -108.5 "Acecast Mining Laser"
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	"final explode" "final explosion small"
@@ -563,9 +563,9 @@ ship "WH Medajech"
 		"Algol Medium Steering"
 		"Algol Scram Drive"
 
+	engine -103.5 365
+	engine 103.5 365
 	engine 0 365
-	engine -102 365
-	engine 102 365
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
@@ -609,11 +609,12 @@ ship "WH Jecha"
 		"Algol Small Thruster"
 		"Algol Scram Drive"
 
-	engine 0 365
+	engine -103.5 365
+	engine 103.5 365
 	engine -63.5 365
 	engine 63.5 365
-	engine -102 365
-	engine 102 365
+	engine 0 365
+	engine 0 365
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
