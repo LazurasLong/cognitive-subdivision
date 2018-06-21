@@ -19,7 +19,7 @@ ship "Mark II Incise"
 		"required crew" 8
 		"bunks" 12
 		"mass" 768
-		"drag" 7.8
+		"drag" 9.4
 		"heat dissipation" .6
 		"fuel capacity" 400
 		"cargo space" 60
@@ -31,46 +31,48 @@ ship "Mark II Incise"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"ion resistance" .4
+		"seeker orb capacity" 800
+		"gaslining" 1
 		weapon
 			"blast radius" 500
 			"shield damage" 6000
 			"hull damage" 3000
 			"hit force" 7600
 	outfits
-		"Algol Seeker Cannon" 2
-		"Algol Seeker Orb" 800
-		"Algol Rapid Gun Turret" 6
-		"Algol anti-missile"
+		"G7-SGP Cannon" 2
+		"G7-SGP Seeker Orb" 1200
+		"G10-HpV Turret" 6
+		"G6-PF Anti-Missile"
 		
-		"Tunneler Ramscoop"
-		"Algol Generator"
-		"Algol Scanner"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun RHpL-2c Core"
+		"NcS Ul-G5 Scanner"
 	
-		"Algol Large Thruster"
-		"Algol Large Steering"
-		"Algol Reverse Thruster"
-		"Algol Scram Drive"
+		"Plinian Thruster"
+		"Plinian Steering"
+		"Vulcanian Reverse Thruster"
+		"Ridgetime Scram Drive"
 	
 	engine -76.5 230
 	engine 76.5 230
 	engine -50.5 232.5
 	engine 50.5 232.5
-	gun -38 -231.5 "Algol Seeker Cannon"
-	gun 38 -231.5 "Algol Seeker Cannon"
-	turret -30.5 -125 "Algol Rapid Gun Turret"
-	turret 30.5 -125 "Algol Rapid Gun Turret"
-	turret -30.5 -57 "Algol Rapid Gun Turret"
-	turret 30.5 -57 "Algol Rapid Gun Turret"
-	turret -30.5 21 "Algol Rapid Gun Turret"
-	turret 30.5 21 "Algol Rapid Gun Turret"
-	turret 0 83 "Algol anti-missile"
+	gun -38 -231.5 "G7-SGP Cannon"
+	gun 38 -231.5 "G7-SGP Cannon"
+	turret -30.5 -125 "G10-HpV Turret"
+	turret 30.5 -125 "G10-HpV Turret"
+	turret -30.5 -57 "G10-HpV Turret"
+	turret 30.5 -57 "G10-HpV Turret"
+	turret -30.5 21 "G10-HpV Turret"
+	turret 30.5 21 "G10-HpV Turret"
+	turret 0 83 "G6-PF Anti-Missile"
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "After their almost complete extinction during the War of Incognition, the Algol reshaped their old destroyers to survive long enough to cause serious damage."
-	description "The Mark II Incise class Destroyer improves on the formula by also expanding on weapon space and engine space at the cost of more mass."
+	description `After their almost complete extinction during the "War of Incognition", the Algol reshaped their old destroyers to survive long enough to cause serious damage. The Mark II Incise class Destroyer improved on the formula by also expanding on weapon space and engine space at the cost of more mass.`
+	description "	Although currently outdated by Algol standards, it's still in use by the Algol Navy. The ship also comes with built in containers to hold a huge amount of seeker orb ammunition."
 
 ship "Mark V Fracture"
 	sprite "ship/Mark_V_Fracture"
@@ -82,7 +84,7 @@ ship "Mark V Fracture"
 		"required crew" 6
 		"bunks" 12
 		"mass" 537
-		"drag" 7
+		"drag" 8.4
 		"heat dissipation" .8
 		"fuel capacity" 400
 		"cargo space" 120
@@ -95,31 +97,32 @@ ship "Mark V Fracture"
 		"hull energy" 2
 		"ion field configuration" 1
 		"ion resistance" .4
+		"gaslining" 1
 		weapon
 			"blast radius" 400
 			"shield damage" 4800
 			"hull damage" 2000
 			"hit force" 6400
 	outfits
-		"Algol Rapid Gun Turret"
-		"Algol anti-missile" 2
+		"G10-HpV Turret"
+		"G6-PF Anti-Missile" 2
 		
-		"Tunneler Ramscoop"
-		"Algol Mini Generator" 2
-		"Algol Scanner"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun RHpL-1c Core" 2
+		"NcS Ul-G5 Scanner"
 	
-		"Algol Large Thruster"
-		"Algol Large Steering"
-		"Algol Reverse Thruster"
-		"Algol Scram Drive"
+		"Plinian Thruster"
+		"Plinian Steering"
+		"Vulcanian Reverse Thruster"
+		"Ridgetime Scram Drive"
 	
 	engine -66 214
 	engine 66 214
 	engine -39.5 218
 	engine 39.5 218
-	turret 0 -149.5 "Algol Rapid Gun Turret"
-	turret -39 -102 "Algol anti-missile"
-	turret 39 -102 "Algol anti-missile"
+	turret 0 -149.5 "G10-HpV Turret"
+	turret -39 -102 "G6-PF Anti-Missile"
+	turret 39 -102 "G6-PF Anti-Missile"
 	fighter -75.5 -34.5 under left
 	fighter 75.5 -34.5 under right
 	fighter -75.5 9.5 under left
@@ -137,7 +140,7 @@ ship "Mark V Fracture"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description `The Fracture carrier was one of the only warship designs to be recovered after the "Kije Rebellion". Unlike its predecessors, the Mark V has given up most of its weapon capabilities in exchange for more room for fighters. It also comes with a unique weapon configuration allowing the installation of a G3-IFE turret.`
 
 ship "Mark IV Scour"
 	sprite "ship/Mark_IV_Scour"
@@ -149,7 +152,7 @@ ship "Mark IV Scour"
 		"required crew" 3
 		"bunks" 6
 		"mass" 144
-		"drag" 2.2
+		"drag" 2.8
 		"heat dissipation" 1
 		"fuel capacity" 300
 		"cargo space" 20
@@ -161,27 +164,29 @@ ship "Mark IV Scour"
 		"hull repair rate" 1.7
 		"hull energy" 1.2
 		"ion resistance" .3
+		"seeker orb capacity" 100
+		"gaslining" 1
 		weapon
 			"blast radius" 160
 			"shield damage" 2000
 			"hull damage" 1000
 			"hit force" 2000
 	outfits
-		"Algol Seeker Cannon"
-		"Algol Seeker Orb" 400
-		"Algol Rapid Gun Turret"
-		"Algol Rapid Gun Turret"
-		"Algol Rapid Gun Turret"
+		"G7-SGP Cannon"
+		"G7-SGP Seeker Orb" 300
+		"G10-HpV Turret"
+		"G10-HpV Turret"
+		"G10-HpV Turret"
 		
-		"Tunneler Ramscoop"
-		"Algol Mini Generator" 2
-		"Algol Scanner"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun RHpL-1c Core" 2
+		"NcS Ul-G5 Scanner"
 
-		"Algol Medium Thruster"
-		"Algol Medium Steering"
-		"Algol Reverse Thruster"
-		"Algol Afterburner"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Pelean Steering"
+		"Vulcanian Reverse Thruster"
+		"NcS St-G2 Afterburner"
+		"Ridgetime Scram Drive"
 
 	engine -56.5 99
 	engine 56.5 99
@@ -190,16 +195,16 @@ ship "Mark IV Scour"
 	engine -13 106
 	engine 13 106
 	engine 0 119
-	gun 0 -66.5 "Algol Seeker Cannon"
-	turret 0 46.5 "Algol Rapid Gun Turret"
-	turret -54.5 68 "Algol Rapid Gun Turret"
-	turret 54.5 68 "Algol Rapid Gun Turret"
+	gun 0 -66.5 "G7-SGP Cannon"
+	turret 0 46.5 "G10-HpV Turret"
+	turret -54.5 68 "G10-HpV Turret"
+	turret 54.5 68 "G10-HpV Turret"
 	explode "tiny explosion" 18
 	explode "small explosion" 36
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion small"
-	description "tbd"
+	description `The Scour was the first warship design to be used by the Algol Navy during their expeditions after the "Kije Rebellion". The design has long since seen improvements that have made it a fast hard-hitting corvette.`
 
 ship "Mark VII Rift"
 	sprite "ship/Mark_VII_Rift"
@@ -210,8 +215,8 @@ ship "Mark VII Rift"
 		"hull" 4400
 		"required crew" 1
 		"bunks" 1
-		"mass" 8
-		"drag" .8
+		"mass" 24
+		"drag" 1
 		"heat dissipation" 1.4
 		"fuel capacity" 200
 		"cargo space" 0
@@ -223,23 +228,24 @@ ship "Mark VII Rift"
 		"hull repair rate" 1.2
 		"hull energy" .9
 		"ion resistance" .2
+		"gaslining" 1
 		weapon
 			"blast radius" 60
 			"shield damage" 600
 			"hull damage" 300
 			"hit force" 600
 	outfits
-		"Algol Rapid Gun" 5
+		"G12-HpV Gun" 5
 		
-		"Tunneler Ramscoop"
-		"Algol Mini Generator"
-		"Algol Scanner"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun RHpL-1c Core"
+		"NcS Ul-G5 Scanner"
 	
-		"Algol Small Thruster"
-		"Algol Small Steering"
-		"Algol Reverse Thruster"
-		"Algol Afterburner"
-		"Algol Scram Drive"
+		"Vulcanian Thruster"
+		"Vulcanian Steering"
+		"Vulcanian Reverse Thruster"
+		"NcS St-G2 Afterburner"
+		"Ridgetime Scram Drive"
 
 	engine -17 38.5
 	engine 17 38.5
@@ -247,13 +253,14 @@ ship "Mark VII Rift"
 	engine 14.5 42.5
 	engine -9.5 47.5
 	engine 9.5 47.5
-	gun 0 -42.5 "Algol Rapid Gun"
-	gun -12.5 -42.5 "Algol Rapid Gun"
-	gun -7.5 -42.5 "Algol Rapid Gun"
-	gun 7.5 -42.5 "Algol Rapid Gun"
-	gun 12.5 -42.5 "Algol Rapid Gun"
+	gun 0 -42.5 "G12-HpV Gun"
+	gun -12.5 -42.5 "G12-HpV Gun"
+	gun -7.5 -42.5 "G12-HpV Gun"
+	gun 7.5 -42.5 "G12-HpV Gun"
+	gun 12.5 -42.5 "G12-HpV Gun"
 	explode "small explosion" 20
-	description "tbd"
+	description `The Rift was one of the only ships to see and survive the war during the "Kije Rebellion". Unlike the Fracture carrier, a few were found intact in the dead worlds of the Algol during their expeditions.`
+	description `	Originally a fighter, it later was turned into an interceptor after the Mark V. The Mark VII is now considered to be a heavy interceptor; capable of delivering loads of firepower for its small size.`
 
 ship "Mark II Lacuna"
 	sprite "ship/Mark_II_Lacuna"
@@ -264,8 +271,8 @@ ship "Mark II Lacuna"
 		"hull" 2000
 		"required crew" 0
 		"bunks" 0
-		"mass" 6
-		"drag" .6
+		"mass" 18
+		"drag" .7
 		"heat dissipation" 1.8
 		"fuel capacity" 0
 		"cargo space" 0
@@ -278,36 +285,95 @@ ship "Mark II Lacuna"
 		"hull energy" .6
 		"automaton" 1
 		"ion resistance" .1
+		"self destruct" .95
+		"gaslining" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 400
 			"hull damage" 200
 			"hit force" 400
 	outfits
-		"Algol Rapid Gun" 2
+		"G12-HpV Gun" 2
 		
-		"Algol Energy Suspender"
-		"Algol Scanner"
+		"Gemsun HpL Energy Suspender"
+		"NcS Ul-G5 Scanner"
 	
-		"Algol Small Thruster"
-		"Algol Small Steering"
-		"Algol Reverse Thruster"
+		"Vulcanian Thruster"
+		"Vulcanian Steering"
+		"Vulcanian Reverse Thruster"
 
 	engine -10 27
 	engine 10 27
 	engine -11.5 33.5
 	engine 11.5 33.5
-	gun -4.5 -38.5 "Algol Rapid Gun"
-	gun 4.5 -38.5 "Algol Rapid Gun"
+	gun -4.5 -38.5 "G12-HpV Gun"
+	gun 4.5 -38.5 "G12-HpV Gun"
 	explode "tiny explosion" 20
-	description "tbd"
+	description "The Lacuna was originally designed as a less resource demanding Mark V Rift, able to carry out combat duties without the need of a pilot. The design has since seen changes with preference towards maneuverability and room for outfits, over firepower."
+
+ship "WH Ybrid"
+	sprite "ship/World_Hauler_Ybrid"
+	attributes
+		category "Heavy Freighter"
+		"cost" 87000000
+		"shields" 153000
+		"hull" 102000
+		"required crew" 5
+		"bunks" 312
+		"mass" 2304
+		"drag" 19.5
+		"heat dissipation" .2
+		"fuel capacity" 1000
+		"cargo space" 1785
+		"outfit space" 455
+		"weapon capacity" 112
+		"engine capacity" 225
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 5.1
+		"hull energy" 3
+		"gaslining" 1
+		weapon
+			"blast radius" 600
+			"shield damage" 8000
+			"hull damage" 3000
+			"hit force" 6000
+	outfits
+		"G10-HpV Turret" 2
+		"G6-PF Anti-Missile" 2
+		
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun RHpL-1c Core" 2
+
+		"Plinian Thruster"
+		"Pelean Thruster"
+		"Plinian Steering"
+		"Ridgetime Scram Drive"
+
+	engine -28 354
+	engine 28 354
+	engine -0 358
+	engine -108 384
+	engine 108 384
+	engine -81 388
+	engine 81 388
+	turret -123 -150 "G6-PF Anti-Missile"
+	turret 123 -150 "G6-PF Anti-Missile"
+	turret -123 196 "G10-HpV Turret"
+	turret 123 196 "G10-HpV Turret"
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "large explosion" 45
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "The Ybrid is a cross between a heavy freighter and transport. Because of their ability to manufacture the largest ships in Algol space, World Hauler was the only one capable of fulfilling the Algol Navy's wishes of creating a bulky freighter of this magnitude. The Navy made every effort to make sure the ship was hardy as possible, and even ordered its detachable cargo prisms to be covered in a double layer of armor."
 
 ship "WH Ogdod"
 	sprite "ship/World_Hauler_Ogdod"
 	attributes
 		category "Heavy Freighter"
 		"cost" 34000000
-		"shields" 160000
+		"shields" 40000
 		"hull" 48000
 		"required crew" 0
 		"bunks" 0
@@ -315,7 +381,7 @@ ship "WH Ogdod"
 		"drag" 8.6
 		"heat dissipation" .4
 		"fuel capacity" 600
-		"cargo space" 2272
+		"cargo space" 2856
 		"outfit space" 168
 		"weapon capacity" 0
 		"engine capacity" 120
@@ -324,18 +390,20 @@ ship "WH Ogdod"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
 			"hull damage" 1500
 			"hit force" 6000
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
 
-		"Algol Medium Thruster"
-		"Algol Large Steering"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Plinian Steering"
+		"Ridgetime Scram Drive"
 
 	engine -54 350
 	engine 54 350
@@ -346,14 +414,14 @@ ship "WH Ogdod"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "World Hauler's Ogdod, with its eight cargo prisms, is mainly used for jobs that require the transfer of huge amounts of cargo per ship."
 
 ship "WH Tetrak"
 	sprite "ship/World_Hauler_Tetrak"
 	attributes
 		category "Heavy Freighter"
 		"cost" 24000000
-		"shields" 110000
+		"shields" 28000
 		"hull" 32000
 		"required crew" 0
 		"bunks" 0
@@ -361,7 +429,7 @@ ship "WH Tetrak"
 		"drag" 6.0
 		"heat dissipation" .5
 		"fuel capacity" 600
-		"cargo space" 1136
+		"cargo space" 1428
 		"outfit space" 168
 		"weapon capacity" 0
 		"engine capacity" 120
@@ -370,18 +438,20 @@ ship "WH Tetrak"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 210
 			"shield damage" 2800
 			"hull damage" 1000
 			"hit force" 4200
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
 
-		"Algol Medium Thruster"
-		"Algol Large Steering"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Plinian Steering"
+		"Ridgetime Scram Drive"
 
 	engine -54 229
 	engine 54 229
@@ -392,14 +462,14 @@ ship "WH Tetrak"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "The Tetrak has four cargo prisms and has found the most use amongst Algol architects out of all of WH's modular freighters. It's the perfect compromise between too much or too little cargo space."
 
 ship "WH Dyd"
 	sprite "ship/World_Hauler_Dyd"
 	attributes
 		category "Light Freighter"
 		"cost" 18000000
-		"shields" 88000
+		"shields" 22000
 		"hull" 26000
 		"required crew" 0
 		"bunks" 0
@@ -407,7 +477,7 @@ ship "WH Dyd"
 		"drag" 4.8
 		"heat dissipation" .5
 		"fuel capacity" 600
-		"cargo space" 568
+		"cargo space" 714
 		"outfit space" 168
 		"weapon capacity" 0
 		"engine capacity" 120
@@ -416,18 +486,20 @@ ship "WH Dyd"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 165
 			"shield damage" 2200
 			"hull damage" 800
 			"hit force" 3300
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender"
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
 
-		"Algol Medium Thruster"
-		"Algol Large Steering"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Plinian Steering"
+		"Ridgetime Scram Drive"
 
 	engine -54 191
 	engine 54 191
@@ -438,14 +510,14 @@ ship "WH Dyd"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "The Dyd is the smallest member of WH's modular freighter family. Different from the Tetrak and Ogdod, it has two cargo prisms lined up horizontally."
 
 ship "WH Ein"
 	sprite "ship/World_Hauler_Ein"
 	attributes
 		category "Light Freighter"
 		"cost" 4500000
-		"shields" 22000
+		"shields" 5500
 		"hull" 6500
 		"required crew" 0
 		"bunks" 0
@@ -453,7 +525,7 @@ ship "WH Ein"
 		"drag" 1.2
 		"heat dissipation" 2
 		"fuel capacity" 300
-		"cargo space" 90
+		"cargo space" 112
 		"outfit space" 93
 		"weapon capacity" 8
 		"engine capacity" 49
@@ -463,6 +535,8 @@ ship "WH Ein"
 		"hull energy" 0.5
 		"ramscoop" 1
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 40
 			"shield damage" 550
@@ -471,11 +545,11 @@ ship "WH Ein"
 	outfits
 		"Acecast Mining Laser"
 		
-		"Algol Energy Suspender"
+		"Gemsun HpL Energy Suspender"
 
-		"Algol Small Thruster"
-		"Algol Medium Steering"
-		"Algol Scram Drive"
+		"Vulcanian Thruster"
+		"Pelean Steering"
+		"Ridgetime Scram Drive"
 
 	engine -26 41
 	engine 26 41
@@ -483,17 +557,17 @@ ship "WH Ein"
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	"final explode" "final explosion small"
-	description "tbd"
+	description "The Ein is mostly used to mine resources from asteroids in different systems. Because it is automata like most ships made by World Hauler, it requires special contracts and licensing in order to operate one in Algol space."
 
 ship "WH Unuc"
 	sprite "ship/World_Hauler_Unuc"
 	attributes
 		category "Transport"
 		"cost" 18000000
-		"shields" 132000
+		"shields" 33000
 		"hull" 20000
 		"required crew" 0
-		"bunks" 142
+		"bunks" 178
 		"mass" 485
 		"drag" 6
 		"heat dissipation" .6
@@ -507,18 +581,20 @@ ship "WH Unuc"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 165
 			"shield damage" 2200
 			"hull damage" 800
 			"hit force" 3300
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 1
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender" 1
 
-		"Algol Small Thruster" 2
-		"Algol Medium Steering"
-		"Algol Scram Drive"
+		"Vulcanian Thruster" 2
+		"Pelean Steering"
+		"Ridgetime Scram Drive"
 
 	engine 0 365
 	explode "small explosion" 25
@@ -526,17 +602,17 @@ ship "WH Unuc"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "The Unuc is the first iteration of WH's modular transport family. Unlike the long retired Uun, parts on the design can quickly be changed to allow for more bunk cyclinders."
 
 ship "WH Medajech"
 	sprite "ship/World_Hauler_Medajech"
 	attributes
 		category "Transport"
 		"cost" 28800000
-		"shields" 185000
+		"shields" 46000
 		"hull" 28000
 		"required crew" 0
-		"bunks" 426
+		"bunks" 535
 		"mass" 679
 		"drag" 12
 		"heat dissipation" .4
@@ -550,18 +626,20 @@ ship "WH Medajech"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 210
 			"shield damage" 2800
 			"hull damage" 1000
 			"hit force" 4200
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 1
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender" 1
 
-		"Algol Medium Thruster"
-		"Algol Medium Steering"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Pelean Steering"
+		"Ridgetime Scram Drive"
 
 	engine -103.5 365
 	engine 103.5 365
@@ -571,17 +649,17 @@ ship "WH Medajech"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "The Medajech is the second iteration of WH's modular transport family. By default the design has three bunk cylinders."
 
 ship "WH Jecha"
 	sprite "ship/World_Hauler_Jecha"
 	attributes
 		category "Transport"
 		"cost" 50400000
-		"shields" 264000
+		"shields" 66000
 		"hull" 40000
 		"required crew" 0
-		"bunks" 852
+		"bunks" 1071
 		"mass" 970
 		"drag" 21
 		"heat dissipation" .3
@@ -595,19 +673,21 @@ ship "WH Jecha"
 		"hull repair rate" 3.4
 		"hull energy" 2
 		"automaton" 1
+		"self destruct" .9
+		"gaslining" 1
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
 			"hull damage" 1500
 			"hit force" 6000
 	outfits
-		"Tunneler Ramscoop"
-		"Algol Energy Suspender" 1
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender" 1
 
-		"Algol Medium Thruster"
-		"Algol Medium Steering"
-		"Algol Small Thruster"
-		"Algol Scram Drive"
+		"Pelean Thruster"
+		"Pelean Steering"
+		"Vulcanian Thruster"
+		"Ridgetime Scram Drive"
 
 	engine -103.5 365
 	engine 103.5 365
@@ -620,4 +700,323 @@ ship "WH Jecha"
 	explode "large explosion" 45
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
-	description "tbd"
+	description "The Jecha is the final iteration of WH's transport family. It has six bunk cylinders capable of carrying thousands of Algol between systems."
+	description "	Because the bunk cylinders were not designed for human sized passengers, it can only fit a around a thousand humans comfortably."
+
+ship "Nil Clarity"
+	sprite "ship/Nil Clarity"
+	attributes
+		category "Transport"
+		"cost" 2925000
+		"shields" 2200
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 24
+		"drag" 1
+		"heat dissipation" 5.8
+		"fuel capacity" 200
+		"cargo space" 5
+		"outfit space" 36
+		"weapon capacity" 0
+		"engine capacity" 14
+		"shield generation" 2.1
+		"shield energy" 1.5
+		"hull repair rate" 0.85
+		"hull energy" .5
+		"cooling" 15
+		"energy capacity" 3900
+		"energy generation" 4
+		"heat generation" 9.2
+		"scan interference" .1
+		"radar jamming" .3
+		"ramscoop" 20
+		"energy consumption" .85
+		"nil clarity engine" -1
+		"gaslining" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 100
+			"hull damage" 38
+			"hit force" 150
+	outfits
+		"Nil Clarity Engine"
+		"Ridgetime Scram Drive"
+
+	engine 0 11.5
+	explode "small explosion" 1
+	description "Starways' Nil Clarity is the smallest ship in Algol space. Packed with miniaturized and compact versions of the Energy Suspender, Ridgetime's Tunneler ramscoop and Ansoft engines. The Nil Clarity is advertised to those who would rather go straight into voyaging and rather not worry about what outfits to select for their ship."
+
+ship "Ebbing Mark"
+	sprite "ship/Ebbing Mark"
+	attributes
+		category "Transport"
+		"cost" 2400000
+		"shields" 6600
+		"hull" 3000
+		"required crew" 1
+		"bunks" 14
+		"mass" 38
+		"drag" 3.2
+		"heat dissipation" 3.9
+		"fuel capacity" 400
+		"cargo space" 16
+		"outfit space" 115
+		"weapon capacity" 0
+		"engine capacity" 57
+		"shield generation" 4.2
+		"shield energy" 3
+		"hull repair rate" 1.7
+		"hull energy" 1
+		"cooling" 10
+		"gaslining" 1
+		weapon
+			"blast radius" 23
+			"shield damage" 300
+			"hull damage" 113
+			"hit force" 450
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Pelean Thruster"
+		"Vulcanian Steering"
+		"Ridgetime Scram Drive"
+
+	engine 0 30.5
+	explode "small explosion" 25
+	"final explode" "final explosion medium"
+	description "Starways' Ebbing Mark is considered popular amongst those travellers that prefer some company in their journeys. The design's built-in cooling means it rarely has to worry about heating."
+
+ship "Ascend Lateral"
+	sprite "ship/Ascend Lateral"
+	attributes
+		category "Light Freighter"
+		"cost" 4270000
+		"shields" 12000
+		"hull" 5400
+		"required crew" 2
+		"bunks" 18
+		"mass" 85
+		"drag" 5.6
+		"heat dissipation" 3.9
+		"fuel capacity" 600
+		"cargo space" 54
+		"outfit space" 143
+		"weapon capacity" 0
+		"engine capacity" 75
+		"shield generation" 4.2
+		"shield energy" 3
+		"hull repair rate" 1.7
+		"hull energy" 1
+		"cooling" 30
+		"gaslining" 1
+		weapon
+			"blast radius" 40
+			"shield damage" 534
+			"hull damage" 200
+			"hit force" 800
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Pelean Thruster"
+		"Pelean Steering"
+		"Ridgetime Scram Drive"
+
+	engine -12 53
+	engine 12 53
+	explode "small explosion" 25
+	explode "large explosion" 45
+	"final explode" "final explosion medium"
+	description "With plenty of cargo space for a ship of its size and even room for several passengers, Starways' Ascend Lateral is the go-to for the starting merchant."
+
+ship "Exuded Onset"
+	sprite "ship/Exuded Onset"
+	attributes
+		category "Heavy Freighter"
+		"cost" 16000000
+		"shields" 44000
+		"hull" 20000
+		"required crew" 3
+		"bunks" 78
+		"mass" 237
+		"drag" 21
+		"heat dissipation" 3.2
+		"fuel capacity" 800
+		"cargo space" 324
+		"outfit space" 224
+		"weapon capacity" 0
+		"engine capacity" 136
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 3.4
+		"hull energy" 2
+		"cooling" 75
+		"gaslining" 1
+		weapon
+			"blast radius" 150
+			"shield damage" 2000
+			"hull damage" 750
+			"hit force" 3000
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Plinian Thruster"
+		"Pelean Steering"
+		"Ridgetime Scram Drive"
+
+	engine -57.5 89.5
+	engine 57.5 88.5
+	engine -30.5 99.5
+	engine 30.5 99.5
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "Starways' pride and jewel, the Exuded Onset, is a favorite amongst veteran merchants. With more than enough room for cargo, passengers and plenty of fuel, the ship is capable of filling almost any job."
+
+ship "Scarab Moth"
+	sprite "ship/Scarab Moth"
+	attributes
+		category "Heavy Freighter"
+		"cost" 48000000
+		"shields" 86000
+		"hull" 60000
+		"required crew" 6
+		"bunks" 86
+		"mass" 568
+		"drag" 13.8
+		"heat dissipation" 1.8
+		"fuel capacity" 600
+		"cargo space" 714
+		"outfit space" 526
+		"weapon capacity" 107
+		"engine capacity" 203
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 5.1
+		"hull energy" 3
+		"gaslining" 1
+		weapon
+			"blast radius" 300
+			"shield damage" 4000
+			"hull damage" 1500
+			"hit force" 4000
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Plinian Thruster"
+		"Plinian Steering"
+		"Vulcanian Reverse Thruster"
+		"Ridgetime Scram Drive"
+
+	engine -41 149
+	engine 0 149
+	engine 41 149
+	engine -21 164.5
+	engine 21 164.5
+	engine -21 164.5
+	engine 21 164.5
+	turret 0 -36.5
+	turret 0 37.5
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "huge explosion" 30
+	"final explode" "final explosion large"
+	description "Acecast's introductory model was set with one goal in mind: design a ship that can handle anything. The Scarab Moth gained a positive reputation for the company amongst several merchants, rookie and veteran, and to this day is considered a success. With enough cargo space to match a World Hauler Dyd, and more than enough space for bunks and outfits. To top it all off, it even has enough room for 2 massive turrets, for those merchants that really want to be ready for any situation."
+
+ship "Calypso"
+	sprite "ship/Calypso"
+	attributes
+		category "Transport"
+		"cost" 96000000
+		"shields" 129000
+		"hull" 105000
+		"required crew" 10
+		"bunks" 736
+		"mass" 1136
+		"drag" 20.7
+		"heat dissipation" .9
+		"fuel capacity" 800
+		"cargo space" 536
+		"outfit space" 474
+		"weapon capacity" 18
+		"engine capacity" 203
+		"shield generation" 8.4
+		"shield energy" 6
+		"hull repair rate" 5.1
+		"hull energy" 3
+		"gaslining" 1
+		weapon
+			"blast radius" 450
+			"shield damage" 6000
+			"hull damage" 2250
+			"hit force" 4000
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Plinian Thruster"
+		"Plinian Steering"
+		"Vulcanian Reverse Thruster"
+		"Ridgetime Scram Drive"
+
+	engine -45.5 205
+	engine 0 205
+	engine 45.5 205
+	engine -21 232.5
+	engine 21 232.5
+	engine -21 232.5
+	engine 21 232.5
+	explode "small explosion" 25
+	explode "medium explosion" 35
+	explode "huge explosion" 30
+	explode "medium explosion" 25
+	"final explode" "final explosion large"
+	description "Often employed as a cruiseliner, Acecast's Calypso can also serve as a large transport ship for those captains that want their passengers to travel in comfort. With how much cargo space the ship has as well, it is not uncommon for some captains to make a complete home out of their Calypso rather than ever settle on something more stationary."
+
+ship "Pod Cricket"
+	sprite "ship/Pod Cricket"
+	attributes
+		category "Light Freighter"
+		"cost" 9600000
+		"shields" 17200
+		"hull" 12000
+		"required crew" 2
+		"bunks" 18
+		"mass" 114
+		"drag" 3
+		"heat dissipation" 2.7
+		"fuel capacity" 400
+		"cargo space" 180
+		"outfit space" 236
+		"weapon capacity" 18
+		"engine capacity" 70
+		"shield generation" 4.2
+		"shield energy" 3
+		"hull repair rate" 2.5
+		"hull energy" 1.5
+		"gaslining" 1
+		weapon
+			"blast radius" 90
+			"shield damage" 1200
+			"hull damage" 450
+			"hit force" 800
+	outfits
+		"Ridgetime Tunneler Ramscoop"
+		"Gemsun HpL Energy Suspender"
+
+		"Pelean Thruster"
+		"Vulcanian Steering" 2
+		"Vulcanian Reverse Thruster"
+		"Ridgetime Scram Drive"
+
+	engine -16 53
+	engine 16 53
+	explode "small explosion" 25
+	explode "large explosion" 35
+	"final explode" "final explosion medium"
+	description "Although considered by some merchants to be rather overpriced, like all products from Acecast, the Pod Cricket justifies itself with proven quality and usefulness amongst its competitors."
