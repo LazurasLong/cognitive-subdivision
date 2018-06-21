@@ -12,6 +12,7 @@
 fleet "Algol Defense Fleet"
 	government "Algol Navy"
 	names 'algol'
+	cargo 1
 	personality
 		heroic surveillance unconstrained
 		confusion 10
@@ -30,9 +31,10 @@ fleet "Algol Defense Fleet"
 fleet "Algol Patrol Fleet"
 	government "Algol Navy"
 	names 'algol'
+	cargo 1
 	personality
-		confusion 10
-		forbearing surveillance
+		confusion 15
+		forbearing frugal surveillance
 	variant 5
 		"Mark II Incise"
 		"Mark VII Rift" 2
@@ -45,12 +47,26 @@ fleet "Algol Patrol Fleet"
 		"Mark V Fracture (Trapper)"
 		"Mark II Lacuna" 12
 
-fleet "Algol Merchant"
+fleet "Algol Navy Freight"
+	government "Algol Navy"
+	names 'algol'
+	cargo 4
+	personality
+		confusion 15
+		timid forbearing disables
+	variant 1
+		"WH Ybrid"
+		"Mark VII Rift" 3
+	variant 4
+		"WH Ybrid" 2
+		"Mark IV Scour" 2
+
+fleet "Algol Architect"
 	government "Algol"
 	names 'algol'
 	cargo 4
 	personality
-		mute appeasing harvests 
+		mute
 	variant 1
 		"WH Ogdod"
 	variant 6
@@ -101,13 +117,71 @@ fleet "Algol Conveyance"
 		"WH Jecha"
 		"WH Medajech"
 
+fleet "Algol Merchant"
+	government "Algol"
+	names 'algol'
+	cargo 4
+	personality
+		timid appeasing
+		confusion 30
+	variant 1
+		"Ascend Lateral"
+	variant 1
+		"Exuded Onset"
+	variant 3
+		"Ascend Lateral" 2
+	variant 4
+		"Ascend Lateral"
+		"Exuded Onset"
+	variant 6
+		"Exuded Onset" 2
+	variant 1
+		"Pod Cricket"
+	variant 3
+		"Pod Cricket" 2
+	variant 1
+		"Pod Cricket"
+		"Ascend Lateral"
+	variant 2
+		"Scarab Moth"
+	variant 1
+		"Scarab Moth"
+		"Pod Cricket"
+	variant 6
+		"Scarab Moth" 2
+	variant 2
+		"Scarab Moth"
+		"Ascend Lateral" 2
+	variant 2
+		"Scarab Moth"
+		"Exuded Onset" 2
+
+fleet "Algol Traveler"
+	government "Algol"
+	names 'algol'
+	cargo 2
+	personality
+		timid appeasing coward
+	variant 1
+		"Nil Clarity"
+	variant 4
+		"Nil Clarity" 2
+	variant 7
+		"Nil Clarity" 3
+	variant 2
+		"Ebbing Mark"
+	variant 6
+		"Ebbing Mark" 2
+	variant 2
+		"Calypso"
+
 fleet "Algol Miner"
 	government "Algol"
 	names 'algol'
 	cargo 0
 	personality
 		confusion 30
-		mute timid appeasing mining harvests
+		mute timid appeasing mining harvests coward
 	variant 1
 		"WH Ein"
 
@@ -168,19 +242,27 @@ phrase 'algol'
 fleet "Hand of Eden Raid Fleet"
 	government "Hand of Eden"
 	names 'hand of eden
+	cargo 1
 	personality
-		harvests coward plunders
+		coward harvests plunders
 		confusion 20
+	variant 5
+		"Shield Beetle (Heat)" 4
+		"Shield Beetle (Ion Missile)" 6
+		"Falcon (Hand of Eden) (Piercing)" 4
 	variant 10
-		"Falcon (Hand of Eden)" 4
+		"Shield Beetle (Heat)" 4
+		"Shield Beetle (Ion Missile)" 6
+		"Falcon (Hand of Eden) (Piercing)" 3
 		"Leviathan (Hand of Eden)" 3
-		"Splinter (Hand of Eden)" 6
 	variant 20
-		"Falcon (Hand of Eden)" 8
-		"Leviathan (Hand of Eden)" 6
-	variant 40
-		"Leviathan (Hand of Eden)" 6
-		"Splinter (Hand of Eden)" 12
-	variant 40
-		"Falcon (Hand of Eden)" 8
-		"Splinter (Hand of Eden)" 12
+		"Shield Beetle (Heat)" 4
+		"Shield Beetle (Ion Missile)" 6
+		"Falcon (Hand of Eden) (Piercing)" 3
+		"Falcon (Hand of Eden)" 3
+	variant 30
+		"Shield Beetle (Heat)" 5
+		"Shield Beetle (Ion Missile)" 3
+		"Falcon (Hand of Eden) (Piercing)" 4
+		"Leviathan (Hand of Eden)" 4
+		"Splinter (Hand of Eden)" 4
