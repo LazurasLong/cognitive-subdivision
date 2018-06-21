@@ -117,3 +117,71 @@ phrase "friendly algol navy"
 	word
 		"."
 		"!"
+
+phrase "friendly algol"
+	word
+		"It"
+		"So it "
+	word
+		""
+		"seems it"
+	word
+		" is true. "
+	word
+		"Our region"
+		"Space"
+		"Our home"
+		"Home "
+		"This region"
+	word
+		" "
+	word
+		"is no longer safe."
+		"has once again succumed to conflict."
+		"has once again succumed to war."
+		"has once again fallen to conflict."
+		"has once again fallen to war."
+
+phrase "friendly algol"
+	word
+		"Caution, "
+	word
+		"outsider."
+		"explorer."
+		"spacer."
+		"fellow captain."
+	word
+		" We may be "
+	word
+		"on the verge of"
+		"near"
+		"close to"
+	word
+		" troubling times."
+		" chaos."
+
+phrase "friendly algol"
+	word
+		"Let the "
+	word
+		"fools"
+		"cowards"
+	word
+		" think"
+		" presume"
+	word
+		" our "
+	word
+		"hiding."
+		"defeat."
+		"obscurity."
+	word
+		" But I will not"
+	word
+		" be stopped from"
+		" halt"
+	word
+		" my "
+	word
+		"travels."
+		"work."

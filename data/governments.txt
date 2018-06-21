@@ -18,6 +18,7 @@ government "Algol"
 		"Hand of Eden" -.3
 		"Coalition" .01
 		"Algol Navy" 1
+	"friendly hail" "friendly algol"
 
 government "Algol Navy"
 	swizzle 4
