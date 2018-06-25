@@ -181,7 +181,7 @@ outfit "G3-IFE Turret"
 		"hit force" 10
 		"ion damage" 40
 		"safe"
-	description "The Generation Seven Ion Field Emitter was designed to to fit on Fracture carriers. It is used in patrol units and even the Algol's main defense fleets."
+	description "The Generation Seven Ion Field Emitter was designed to fit on Fracture carriers. It is used in patrol units and even the Algol's main defense fleets."
 	description "	It's well suited as a tactical weapon for disabling swarms of small ships as well as keeping enemies from coming to close."
 
 effect "ion field"

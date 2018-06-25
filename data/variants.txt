@@ -166,7 +166,7 @@ ship "Marauder Leviathan" "Leviathan (Hand of Eden)"
 		"Ionic Afterburner"
 		"Jump Drive"
 		"Laser Rifle" 69
-		"Never Gas" 69
+		"Nerve Gas" 69
 	gun "Korath Repeater"
 	gun "Korath Repeater"
 	gun "Korath Slicer"
