@@ -16,6 +16,7 @@ shipyard "Algol Navy"
 	"Mark VII Rift"
 	"Mark II Lacuna"
 	"WH Ybrid"
+	"Rupture"
 
 shipyard "World Hauler Basics"
 	"WH Ogdod"
