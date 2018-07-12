@@ -13,6 +13,8 @@ ship "Mark II Incise"
 	sprite "ship/Mark_II_Incise"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Algol Navy"
 		"cost" 250000000
 		"shields" 832000
 		"hull" 250000
@@ -78,6 +80,8 @@ ship "Mark V Fracture"
 	sprite "ship/Mark_V_Fracture"
 	attributes
 		category "Heavy Warship"
+		licenses
+			"Algol Navy"
 		"cost" 250000000
 		"shields" 707000
 		"hull" 214000
@@ -146,6 +150,8 @@ ship "Mark IV Scour"
 	sprite "ship/Mark_IV_Scour"
 	attributes
 		category "Light Warship"
+		licenses
+			"Algol Navy"
 		"cost" 100000000
 		"shields" 120000
 		"hull" 36000
@@ -207,6 +213,8 @@ ship "Mark VII Rift"
 	sprite "ship/Mark_VII_Rift"
 	attributes
 		category "Interceptor"
+		licenses
+			"Algol Navy"
 		"cost" 20000000
 		"shields" 49000
 		"hull" 15000
@@ -263,6 +271,8 @@ ship "Mark II Lacuna"
 	sprite "ship/Mark_II_Lacuna"
 	attributes
 		category "Fighter"
+		licenses
+			"Algol Navy"
 		"cost" 1000000
 		"shields" 17000
 		"hull" 5000
@@ -315,6 +325,9 @@ ship "WH Ybrid"
 	sprite "ship/World_Hauler_Ybrid"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Navy"
+			"World Hauler"
 		"cost" 460000000
 		"shields" 542000
 		"hull" 866000
@@ -372,6 +385,9 @@ ship "WH Ogdod"
 	sprite "ship/World_Hauler_Ogdod"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 110000000
 		"shields" 406000
 		"hull" 650000
@@ -420,9 +436,12 @@ ship "WH Tetrak"
 	sprite "ship/World_Hauler_Tetrak"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 60000000
-		"shields" 230788
-		"hull" 372443
+		"shields" 230000
+		"hull" 372000
 		"required crew" 0
 		"bunks" 1
 		"mass" 1722
@@ -468,9 +487,12 @@ ship "WH Dyd"
 	sprite "ship/World_Hauler_Dyd"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 40000000
-		"shields" 173091
-		"hull" 279333
+		"shields" 173000
+		"hull" 280000
 		"required crew" 0
 		"bunks" 1
 		"mass" 1299
@@ -516,9 +538,12 @@ ship "WH Ein"
 	sprite "ship/World_Hauler_Ein"
 	attributes
 		category "Light Freighter"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 10000000
-		"shields" 19103
-		"hull" 17193
+		"shields" 19000
+		"hull" 17000
 		"required crew" 0
 		"bunks" 0
 		"mass" 48
@@ -564,9 +589,12 @@ ship "WH Unuc"
 	sprite "ship/World_Hauler_Unuc"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 100000000
-		"shields" 700304
-		"hull" 315137
+		"shields" 700000
+		"hull" 315000
 		"required crew" 0
 		"bunks" 1798
 		"mass" 1208
@@ -609,9 +637,12 @@ ship "WH Medajech"
 	sprite "ship/World_Hauler_Medajech"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 200000000
-		"shields" 845822
-		"hull" 380620
+		"shields" 846000
+		"hull" 381000
 		"required crew" 0
 		"bunks" 5394
 		"mass" 1843
@@ -656,9 +687,12 @@ ship "WH Jecha"
 	sprite "ship/World_Hauler_Jecha"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
+			"World Hauler"
 		"cost" 340000000
-		"shields" 1282375
-		"hull" 577068
+		"shields" 1282000
+		"hull" 577000
 		"required crew" 0
 		"bunks" 10788
 		"mass" 2795
@@ -707,9 +741,11 @@ ship "Nil Clarity"
 	sprite "ship/Nil Clarity"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
 		"cost" 200000
 		"shields" 1170
-		"hull" 527
+		"hull" 530
 		"required crew" 1
 		"bunks" 1
 		"mass" 14
@@ -752,9 +788,11 @@ ship "Ebbing Mark"
 	sprite "ship/Ebbing Mark"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
 		"cost" 200000
-		"shields" 7967
-		"hull" 3586
+		"shields" 8000
+		"hull" 3600
 		"required crew" 1
 		"bunks" 3
 		"mass" 27
@@ -793,9 +831,11 @@ ship "Ascend Lateral"
 	sprite "ship/Ascend Lateral"
 	attributes
 		category "Light Freighter"
+		licenses
+			"Algol Standard"
 		"cost" 2000000
-		"shields" 10906
-		"hull" 9815
+		"shields" 11000
+		"hull" 9800
 		"required crew" 1
 		"bunks" 9
 		"mass" 54
@@ -837,9 +877,11 @@ ship "Exuded Onset"
 	sprite "ship/Exuded Onset"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Standard"
 		"cost" 18000000
-		"shields" 71641
-		"hull" 119743
+		"shields" 72000
+		"hull" 120000
 		"required crew" 10
 		"bunks" 101
 		"mass" 435
@@ -886,9 +928,11 @@ ship "Scarab Moth"
 	sprite "ship/Scarab Moth"
 	attributes
 		category "Heavy Freighter"
+		licenses
+			"Algol Standard"
 		"cost" 54000000
 		"shields" 91000
-		"hull" 160550
+		"hull" 161000
 		"required crew" 10
 		"bunks" 82
 		"mass" 763
@@ -939,9 +983,11 @@ ship "Calypso"
 	sprite "ship/Calypso"
 	attributes
 		category "Transport"
+		licenses
+			"Algol Standard"
 		"cost" 140000000
-		"shields" 965116
-		"hull" 493694
+		"shields" 965000
+		"hull" 494000
 		"required crew" 64
 		"bunks" 1198
 		"mass" 2324
@@ -990,9 +1036,11 @@ ship "Pod Cricket"
 	sprite "ship/Pod Cricket"
 	attributes
 		category "Light Freighter"
+		licenses
+			"Algol Standard"
 		"cost" 3000000
-		"shields" 11819
-		"hull" 11228
+		"shields" 12000
+		"hull" 11000
 		"required crew" 1
 		"bunks" 2
 		"mass" 86
@@ -1032,11 +1080,12 @@ ship "Pod Cricket"
 
 ship "Rupture"
 	sprite "ship/Rupture"
+	"never disabled"
 	attributes
 		category "Heavy Warship"
 		"cost" 500000000
-		"shields" 2956109
-		"hull" 1404151
+		"shields" 2960000
+		"hull" 1400000
 		"required crew" 268
 		"bunks" 437
 		"mass" 2557

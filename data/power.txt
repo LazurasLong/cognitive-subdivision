@@ -11,6 +11,8 @@
 
 outfit "Gemsun RHpL-2c Core"
 	category "Power"
+	licenses
+		"Algol Navy"
 	cost 130000000
 	thumbnail "outfit/Gemsun_RHpL_2c_Core"
 	"cooling" 245
@@ -25,6 +27,8 @@ outfit "Gemsun RHpL-2c Core"
 
 outfit "Gemsun RHpL-1c Core"
 	category "Power"
+	licenses
+		"Algol Navy"
 	cost 32500000
 	thumbnail "outfit/Gemsun_RHpL_1c_Core"
 	"cooling" 57

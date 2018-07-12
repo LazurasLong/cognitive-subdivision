@@ -34,6 +34,8 @@ outfit "Ridgetime Scram Drive"
 
 outfit "NcS Ul-G5 Scanner"
 	category "Systems"
+	licenses
+		"Algol Navy"
 	cost 1150000
 	thumbnail "outfit/NcS_Ul_G5_Scanner"
 	"mass" 8
@@ -49,6 +51,8 @@ outfit "NcS Ul-G5 Scanner"
 
 outfit "Lucentbit O-Su PR"
 	category "Systems"
+	licenses
+		"Lucentbit"
 	cost 625000
 	thumbnail "outfit/Lucentbit_O_Su_PR"
 	"mass" .1
@@ -61,6 +65,8 @@ outfit "Lucentbit O-Su PR"
 
 outfit "Lucentbit C-Su PR"
 	category "Systems"
+	licenses
+		"Lucentbit"
 	cost 375000
 	thumbnail "outfit/Lucentbit_C_Su_PR"
 	"mass" .1
@@ -73,6 +79,8 @@ outfit "Lucentbit C-Su PR"
 
 outfit "DS Ul-G1 Shield Generator"
 	category "Systems"
+	licenses
+		"Algol Navy"
 	cost 4120000
 	thumbnail "outfit/DS_Ul_G1_Shield_Generator"
 	"mass" 100

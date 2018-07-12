@@ -111,6 +111,8 @@ outfit "Vulcanian Reverse Thruster"
 
 outfit "NcS St-G2 Afterburner"
 	category "Engines"
+	licenses
+		"Algol Navy"
 	"cost" 624000
 	thumbnail "outfit/ionic afterburner"
 	"mass" 22
