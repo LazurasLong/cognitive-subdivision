@@ -1150,4 +1150,3 @@ ship "Rupture"
 	explode "large explosion" 45
 	explode "huge explosion" 25
 	"final explode" "final explosion large"
-	description `tbd`
