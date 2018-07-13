@@ -31,15 +31,15 @@ outfit "G10-HpV Turret"
 		"inaccuracy" .1
 		"turret turn" 3
 		"velocity" 40
-		"lifetime" 26
+		"lifetime" 30
 		"reload" 7.5
 		"firing energy" 53
-		"firing force" 16
+		"firing force" 14
 		"firing heat" 160
-		"shield damage" 216
-		"hull damage" 200
+		"shield damage" 195
+		"hull damage" 180
 		"piercing" .25
-		"hit force" 60
+		"hit force" 54
 		cluster
 	description `The "Generation Ten Hyperphase Velocity" turret is an assembly of four HpV guns strapped on a rotating platform. Capable of quickly ripping through targets from long range, it has become standard on Algol warships.`
 	description `Unlike the G12-HpV gun, its charge assembly has been configured to handle more frequent stress. Allowing it to fire at a faster rate per gun and take advantage of more available power.`
@@ -62,15 +62,15 @@ outfit "G12-HpV Gun"
 		"hit effect" "blaster impact"
 		"inaccuracy".1
 		"velocity" 40
-		"lifetime" 26
+		"lifetime" 30
 		"reload" 45
 		"firing energy" 53
-		"firing force" 16
+		"firing force" 14
 		"firing heat" 160
-		"shield damage" 216
-		"hull damage" 200
+		"shield damage" 195
+		"hull damage" 180
 		"piercing" .25
-		"hit force" 60
+		"hit force" 54
 		stream
 	description `Hyperphase technology first saw use in systems like Hyperdrives and power generators. It wasn't until the "Kije Rebellion" that the technology would be used in weapons. The HpV gun was the first weapon to do so and till this day has proven that Hyperphase technology can be quite deadly in the battlefield.`
 
@@ -130,18 +130,18 @@ outfit "G7-SGP Cannon"
 		"inaccuracy" 2.6
 		"velocity" 20
 		"random velocity" 2
-		"lifetime" 90
+		"lifetime" 65
 		"reload" 120
 		"firing energy" 126
-		"firing force" 108
+		"firing force" 140
 		"firing heat" 271
 		"turn" 3
 		"homing" 2
 		"tracking" 0.8
-		"shield damage" 3598
-		"hull damage" 4800
-		"piercing" .05
-		"hit force" 396
+		"shield damage" 5479
+		"hull damage" 6150
+		"piercing" .1
+		"hit force" 548
 		"missile strength" 105
 		stream
 	description `The "Generation Seven Seeker Guided Projectile" cannon uses a zepto level assembler to mold a thick plasma-lite energy layer around a spinning seeker orb, then releases the projectile at high velocity."`
@@ -263,7 +263,6 @@ outfit "Rupture Hyperlinker"
 		"hull damage" 121000
 		"piercing" .5
 		"disruption damage" 216
-	description ``
 
 effect "Rupture Fire"
 	sprite "effect/Rupture Superweapon FE"
