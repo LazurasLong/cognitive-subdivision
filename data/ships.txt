@@ -604,7 +604,7 @@ ship "WH Unuc"
 		"cargo space" 0
 		"outfit space" 166
 		"weapon capacity" 0
-		"engine capacity" 20
+		"engine capacity" 120
 		"shield generation" 3
 		"shield energy" 3
 		"hull repair rate" 1
