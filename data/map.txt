@@ -944,8 +944,8 @@ planet Heaviside
 planet Looper
 	attributes urban factory moon
 	landscape land/desert2
-	description `The Algol's homeworld. The terrain is mostly sand dunes with a massive ocean spread across the northern polar region. Citiscapes are barely visible throughout the moon.`
-	spaceport `The spacesport is filled with activity as merchant ships depart towards Requiem and ships from the nearby outpost bring food for the billions of civilians who live here.`
+	description `This is the Algol homeworld. The terrain is mostly sand dunes with a massive ocean spread across the northern polar region. Cityscapes are barely visible throughout the moon.`
+	spaceport `The spacesport is filled with activity as merchant ships depart towards Requiem and ships from the nearby outpost bring food and other commodities for the billions of civilians who live here.`
 	outfitter "Algol Basics"
 	outfitter "Ridgetime Basics"
 	outfitter "Gemsun Basics"
@@ -955,13 +955,13 @@ planet Looper
 planet "New Door"
 	attributes moon
 	landscape land/beach5
-	description `New Door is a beautiful site to see as its surface is mostly warm and covered with tropical forests, jungles and several oceans.`
+	description `New Door is a beautiful site to see. Its surface is mostly warm and covered with tropical forests, jungles, and several oceans.`
 
 planet "Norton Station"
 	attributes station
 	landscape land/space6
-	description `The station appears constructed of materials that have never been seen before, with all corridors leading to a massive core of unknown purpose.`
-	spaceport `The outfitter is strange and piled with devices that sure appear to be out off this universe. As you walk down one of the bridges you see what appear to be ship hangers as well.`
+	description `The station appears to be constructed from materials that you've never seen before. Walking through the corridors, you come across various shops and even a few restaurants. It's overtly peaceful, with most Algol partaking in conversation. All the corridors lead to a massive core of unknown purpose. `
+	spaceport `The shops are strange and stocked with objects that appear to be out off this universe. As you walk down one of the corridors, you come across what appear to be ship hangars as well.`
 	shipyard "Algol Navy"
 	shipyard "World Hauler Basics"
 	shipyard "Starways Basics"
