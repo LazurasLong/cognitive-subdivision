@@ -94,6 +94,8 @@ outfit "DS Ul-G1 Shield Generator"
 
 outfit `Lucentbit "Hulk" T9SC Drone`
 	category "Hand to Hand"
+	licenses
+		"Lucentbit"
 	cost 11700300
 	thumbnail "outfit/unknown"
 	"required crew" 1
