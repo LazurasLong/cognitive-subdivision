@@ -35,6 +35,7 @@ ship "Mark II Incise"
 		"hull heat" 6
 		"seeker orb capacity" 1100
 		"gaslining" 1
+		"combat drone integration" 2
 		weapon
 			"blast radius" 324
 			"shield damage" 3242
@@ -49,6 +50,8 @@ ship "Mark II Incise"
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun RHpL-2c Core"
 		"NcS Ul-G5 Scanner"
+		`Lucentbit "Hulk" T9SC Drone` 2
+		
 	
 		"Plinian Thruster"
 		"Plinian Steering"
@@ -102,6 +105,7 @@ ship "Mark V Fracture"
 		"hull heat" 6
 		"ion field configuration" 1
 		"gaslining" 1
+		"combat drone integration" 2
 		weapon
 			"blast radius" 276
 			"shield damage" 2757
@@ -114,6 +118,7 @@ ship "Mark V Fracture"
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun RHpL-1c Core" 2
 		"NcS Ul-G5 Scanner"
+		`Lucentbit "Hulk" T9SC Drone` 2
 	
 		"Plinian Thruster"
 		"Plinian Steering"
@@ -347,6 +352,7 @@ ship "WH Ybrid"
 		"hull energy" 2
 		"hull heat" 3
 		"gaslining" 1
+		"combat drone integration" 18
 		weapon
 			"blast radius" 600
 			"shield damage" 8000
@@ -358,6 +364,7 @@ ship "WH Ybrid"
 		
 		"Ridgetime Tunneler Ramscoop" 4
 		"Gemsun RHpL-1c Core" 2
+		`Lucentbit "Hulk" T9SC Drone` 18
 
 		"Plinian Thruster" 2
 		"Plinian Steering" 2
@@ -408,6 +415,7 @@ ship "WH Ogdod"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 1
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
@@ -416,6 +424,7 @@ ship "WH Ogdod"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender"
+		`Lucentbit "Hulk" T9SC Drone`
 
 		"Plinian Thruster" 2
 		"Plinian Steering" 2
@@ -459,6 +468,7 @@ ship "WH Tetrak"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 1
 		weapon
 			"blast radius" 210
 			"shield damage" 2800
@@ -467,6 +477,7 @@ ship "WH Tetrak"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender"
+		`Lucentbit "Hulk" T9SC Drone`
 
 		"Plinian Thruster" 2
 		"Plinian Steering" 2
@@ -510,6 +521,7 @@ ship "WH Dyd"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 1
 		weapon
 			"blast radius" 165
 			"shield damage" 2200
@@ -518,6 +530,7 @@ ship "WH Dyd"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender"
+		`Lucentbit "Hulk" T9SC Drone`
 
 		"Plinian Thruster" 2
 		"Plinian Steering" 2
@@ -612,6 +625,7 @@ ship "WH Unuc"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 2
 		weapon
 			"blast radius" 165
 			"shield damage" 2200
@@ -620,6 +634,7 @@ ship "WH Unuc"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender"
+		`Lucentbit "Hulk" T9SC Drone` 2
 
 		"Pelean Thruster"
 		"Plinian Steering"
@@ -660,6 +675,7 @@ ship "WH Medajech"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 6
 		weapon
 			"blast radius" 210
 			"shield damage" 2800
@@ -668,6 +684,7 @@ ship "WH Medajech"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender"
+		`Lucentbit "Hulk" T9SC Drone` 6
 
 		"Plinian Thruster"
 		"Plinian Steering"
@@ -710,6 +727,7 @@ ship "WH Jecha"
 		"hull heat" 1.5
 		"automaton" 1
 		"gaslining" 1
+		"combat drone integration" 12
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
@@ -718,6 +736,7 @@ ship "WH Jecha"
 	outfits
 		"Ridgetime Tunneler Ramscoop"
 		"Gemsun HpL Energy Suspender" 2
+		`Lucentbit "Hulk" T9SC Drone` 12
 
 		"Plinian Thruster" 2
 		"Plinian Steering"
@@ -900,6 +919,7 @@ ship "Exuded Onset"
 		"cooling" 30
 		"ramscoop" 4
 		"gaslining" 1
+		"combat drone integration" 1
 		weapon
 			"blast radius" 150
 			"shield damage" 2000
@@ -949,6 +969,7 @@ ship "Scarab Moth"
 		"hull energy" 2
 		"hull heat" 3
 		"gaslining" 1
+		"combat drone integration" 1
 		weapon
 			"blast radius" 300
 			"shield damage" 4000
@@ -1004,6 +1025,7 @@ ship "Calypso"
 		"hull energy" 2
 		"hull heat" 3
 		"gaslining" 1
+		"combat drone integration" 2
 		weapon
 			"blast radius" 450
 			"shield damage" 6000
@@ -1100,6 +1122,7 @@ ship "Rupture"
 		"hull energy" 19.2
 		"hull heat" 20
 		"gaslining" 1
+		"combat drone integration" 24
 		weapon
 			"blast radius" 1000
 			"shield damage" 36000
@@ -1117,6 +1140,7 @@ ship "Rupture"
 		"Gemsun RHpL-2c Core" 3
 		"NcS Ul-G5 Scanner"
 		"DS Ul-G1 Shield Generator" 4
+		`Lucentbit "Hulk" T9SC Drone` 24
 	
 		"Plinian Thruster" 2
 		"Plinian Steering" 3

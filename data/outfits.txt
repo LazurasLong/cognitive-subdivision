@@ -91,3 +91,12 @@ outfit "DS Ul-G1 Shield Generator"
 	"ion resistance" 1
 	description "Seeking more modability in their ships, the Algol Navy has developed a working shield generator that can function in most ships with room for it."
 	description "	This shield generator also allowed for more changes to its structure, which makes it more powerful and resistant than its built in counterparts."
+
+outfit `Lucentbit "Hulk" T9SC Drone`
+	category "Hand to Hand"
+	cost "11700300"
+	thumbnail "outfit/unknown"
+	"required crew" 1
+	"capture defense" 5770
+	"unplunderable" 1
+	"combat drone integration" -1
